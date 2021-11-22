@@ -25,7 +25,8 @@ public class UpgradeUiService {
 		Runnable runnable = new Runnable() {
 			@Override
 			public void run() {
-				ExecutorService service = Executors.newFixedThreadPool(30);					
+				ExecutorService service = Executors.newFixedThreadPool(30);
+				System.out.println(table_gj);
 				TableItem[] t = table_gj.getSelection();
 				final int size = t.length;
 				CountDownLatch countDownLatch = new CountDownLatch(size);	
@@ -96,7 +97,7 @@ public class UpgradeUiService {
 										try {
 											JSONObject jol = JSON.parseObject(result);
 											TableItem item = new TableItem(table_gj, SWT.NONE);  
-											item.setText(new String[]{ips2.get(num-1) , "running" , jol.getString("mac") , jol.getString("model") , jol.getString("firmware") , "-", "-"});
+											item.setText(new String[]{ips2.get(num-1) , jol.getString("status") , jol.getString("mac") , jol.getString("model") , jol.getString("firmware_version") , "-", "-"});
 											item.setChecked(true);
 										}catch(Exception e) {
 											

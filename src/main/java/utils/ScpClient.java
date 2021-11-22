@@ -4,11 +4,14 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import ch.ethz.ssh2.Connection;
 import ch.ethz.ssh2.SCPClient;
 import ch.ethz.ssh2.SCPInputStream;
 import ch.ethz.ssh2.SCPOutputStream;
+import common.LangConfig;
 
 /**
  * java服务器通过SCP上传文件至Linux服务器
@@ -26,14 +29,38 @@ public class ScpClient {
     private String password;
     
     public static void main(String args[]) {
-    	ScpClient scpClient = new ScpClient("192.168.0.72",22,"root","root");
-    	scpClient.uploadFile(new File("C:\\Users\\wangjian\\Desktop\\temp\\swupdate_20191202.tar.gz"), "/tmp", null);
-    	SftpUtils sftpUtils = new SftpUtils("192.168.0.72", 22, "root", "root");
-    	System.out.println(sftpUtils.execute("ls /tmp"));
-    	System.out.println(sftpUtils.execute("sudo chmod 755 /tmp/swupdate_20191202.tar.gz"));
-    	//System.out.println(sftpUtils.execute("sudo system_update online /tmp/swupdate_20191202.tar.gz"));
-    	//System.out.println(sftpUtils.execute("sudo sh /tmp/upgrade_tesh.sh"));
-    	//System.out.println(sftpUtils.execute("nohup sudo system_update online /tmp/swupdate_20191202.tar.gz > /tmp/upgrade.log &"));
+    	String ipStr = args[0];
+    	String filename = args[1];
+    	String pass = args[2];
+
+    	List<String> ranges = new ArrayList<>();
+    	//ranges.add("192.168.10.50-59");
+    	
+    	ranges.add(ipStr);
+    	List<String> ips = new ArrayList<>();
+        for (String range : ranges) {
+           ips.addAll(IPRangeUtils.getIPRangeList(range));
+        }
+        ips = IPRangeUtils.removeDuplicateWithOrder(ips);
+        
+        for (String i : ips) {
+        	String result = HttpRequestUtils.get(i, "/index.php/app/api?command=miner_info", null);
+        	if("".equals(result) || result == null) {
+        		System.out.println("ip:"+i+" 不是一台F9矿机 !");
+				continue;
+			}
+	        try { 
+	        	System.out.println("ip:"+i+" 连接成功!");
+	        	ScpClient scpClient = new ScpClient(i,22,"root", pass);
+	        	scpClient.uploadFile(new File(filename), "/tmp", null);
+	        	SftpUtils sftpUtils = new SftpUtils(i, 22, "root", pass);
+	        	System.out.println("命令执行成功！");
+	        	sftpUtils.execute("(sudo system_update online /tmp/" + filename +" > /tmp/upgrade.log &)");
+	        } catch(Exception e) {
+	        	System.out.println("升级失败");
+	        }
+        }
+    
     }
  
     /**

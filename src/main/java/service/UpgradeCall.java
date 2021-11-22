@@ -39,11 +39,17 @@ public class UpgradeCall implements Callable<String>{
 	
 	public String upgrade(TableItem item) {
 		String filename = MinerCheckApp.filePath;
-		String user = MinerCheckApp.lblNewLabel_20.getText();
-		String pass = MinerCheckApp.lblNewLabel_21.getText();
+		//String filename = "G:\\workspace\\2021年F9脚本与程序\\10月10号扫码枪固件与升级包\\swupdate_40_20211010.tar.gz";
+		System.out.println("filename:" + filename);
+		//String user = MinerCheckApp.lblNewLabel_20.getText();
+		//String pass = MinerCheckApp.lblNewLabel_21.getText();
+		String user = "root";
+		String pass = "F9Miner1234";
 		String ip = item.getText(0);
-		String minerType = item.getText(3);
-		String version = item.getText(4);
+		System.out.println("ip:" + ip);
+		
+		// String minerType = item.getText(3);
+		// String version = item.getText(4);
 		//校验
 		SftpUtils sftpUtils = new SftpUtils(ip, 22, user, pass);
 		int success = sftpUtils.upload("/tmp", new File(filename), null);
@@ -51,7 +57,9 @@ public class UpgradeCall implements Callable<String>{
 			return "upload file fail!";
 		}
 		sftpUtils.execute("chmod 755 /tmp/" + filename);
-//		sftpUtils.execute("nohup system_update online /tmp/" + filename);
+        //sftpUtils.execute("nohup sudo system_update online /tmp/" + filename);
+        sftpUtils.execute("nohup sudo system_update online /tmp/" + filename + "> /tmp/up.log 2>&1");
+
 		return "upgrade success!";
 	}
 

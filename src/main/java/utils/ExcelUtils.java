@@ -3,6 +3,7 @@ package utils;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -10,6 +11,7 @@ import java.util.List;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFCellStyle;
+import org.apache.poi.hssf.usermodel.HSSFDataFormat;
 import org.apache.poi.hssf.usermodel.HSSFFont;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -79,7 +81,20 @@ public class ExcelUtils {
 		style.setBorderRight(HSSFCellStyle.BORDER_THIN);//右边框
 		style.setFont(getCommFont(workbook));
 		return style;
-	}	
+	}
+	
+	//获取日期单元格样式
+	public static HSSFCellStyle getDateStyle(HSSFWorkbook workbook) {
+		HSSFCellStyle style = workbook.createCellStyle();
+		HSSFDataFormat format = workbook.createDataFormat();
+		style.setDataFormat(format.getFormat("yyyy/MM/dd hh:mm"));
+		style.setBorderBottom(HSSFCellStyle.BORDER_THIN); //下边框
+		style.setBorderLeft(HSSFCellStyle.BORDER_THIN);//左边框
+		style.setBorderTop(HSSFCellStyle.BORDER_THIN);//上边框
+		style.setBorderRight(HSSFCellStyle.BORDER_THIN);//右边框
+		style.setFont(getCommFont(workbook));
+		return style;
+	}
 	
 	//填充标题数据
 	public static void setTitleData(String[] title,HSSFSheet sheet,HSSFCellStyle style) {
@@ -96,15 +111,22 @@ public class ExcelUtils {
 	}
 	
 	//填充内容数据
-	public static void setContentData(List<String[]> list,HSSFSheet sheet,HSSFCellStyle style) {
+	public static void setContentData(List<String[]> list,HSSFSheet sheet, HSSFCellStyle style, HSSFCellStyle dateStyle) throws ParseException {
 		int len = list.size();
 		for(int i=0;i<len;i++) {
 			HSSFRow nextrow=sheet.createRow(i+1);
 			String content[]=list.get(i);
+			
 			for(int j=0;j<content.length;j++) {
 				HSSFCell cell=nextrow.createCell(j);
-				cell.setCellValue(content[j]);
-				cell.setCellStyle(style);
+				if(j ==0) {
+					SimpleDateFormat testDate=new SimpleDateFormat("yyyy/MM/dd hh:mm");
+					cell.setCellValue(testDate.parse(content[0]));
+					cell.setCellStyle(dateStyle);
+				} else {
+					cell.setCellValue(content[j]);
+					cell.setCellStyle(style);
+				}
 			}
 			
 		}
@@ -133,8 +155,9 @@ public class ExcelUtils {
 	        HSSFSheet sheet = ExcelUtils.getSheet(workbook, "矿机状态信息");
 	        HSSFCellStyle titleStyle = ExcelUtils.getTitleStyle(workbook);
 	        HSSFCellStyle commStyle = ExcelUtils.getCommStyle(workbook);
+	        HSSFCellStyle dateStyle = ExcelUtils.getDateStyle(workbook);
 	        ExcelUtils.setTitleData(title, sheet, titleStyle);
-	        ExcelUtils.setContentData(list, sheet, commStyle);        
+	        ExcelUtils.setContentData(list, sheet, commStyle, dateStyle);        
 	        String filePath =path +"//"+ getDateRandom()+".xls";
 	        ExcelUtils.export(filePath, workbook);
 	        System.out.println(filePath);

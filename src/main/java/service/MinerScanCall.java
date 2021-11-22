@@ -47,29 +47,34 @@ public class MinerScanCall implements Callable<MinerScanVO>{
 		MinerScanVO minerScanVO = new MinerScanVO();
 		minerScanVO.setIp(ip);
 		String result = HttpRequestUtils.get(ip, "/index.php/app/api?command=miner_info", null);
-		try {			
-			if("".equals(result) || result == null) {
+		try {
+			JSONObject jol = JSON.parseObject(result);
+			if("".equals(jol.getString("mac"))) {
+			//if("".equals(result) || result == null) {
 				minerScanVO.setStatus(LangConfig.getKey("app.message.timeout"));
 				minerScanVO.setCode(0);
 				minerScanVO.setIsMiner(false);
 				return minerScanVO;
 			}
-			JSONObject jol = JSON.parseObject(result);
+			minerScanVO.setIsMiner(true);
+			//JSONObject jol = JSON.parseObject(result);
 			//解析json结构			
 			logger.info("ip [{}] connect message:[{}]",ip,JSON.toJSONString(jol));
 			minerScanVO.setMinerType(jol.getString("model"));
+			minerScanVO.setBinType(jol.getString("bin"));
 			minerScanVO.setNetworkType(jol.getString("network_type"));
 			minerScanVO.setMacAddress(jol.getString("mac"));
 			minerScanVO.setFirmwareVersion(jol.getString("firmware_version"));
 			minerScanVO.setUptime(Integer.parseInt(jol.getString("uptime"))/60 + "");
-			minerScanVO.setStatus("running");
-			minerScanVO.setPoint(PointDao.findPoint(jol.getString("mac")));
-			//minerScanVO.setMinerType("f5");			
-			minerScanVO.setIsMiner(true);
+			minerScanVO.setStatus(jol.getString("status"));
+			minerScanVO.setPoint(PointDao.findPoint(jol.getString("mac")));			
+			//minerScanVO.setIsMiner(true);
 			minerScanVO.setCode(1);
+			//minerScanVO.setSequence(Integer.parseInt(ip.substring(0, ip.lastIndexOf("."))));
 			minerScanVO.getCgminerVO(minerScanVO);
-		}catch(Exception e) {
+		}catch(Exception e) {	
 			minerScanVO.getCgminerVO(minerScanVO);
+			minerScanVO.setIsMiner(false);
 //			String cgminerResult = CgminerUtil.call(ip,4028,"pools+stats", "");
 //			logger.info("cgminer-pools+stats:{}",cgminerResult);
 //			if(cgminerResult != null) {

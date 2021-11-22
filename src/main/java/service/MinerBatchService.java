@@ -165,6 +165,48 @@ public class MinerBatchService {
 		new Thread(runnable).start();
 	}
 	
+	//点亮红灯
+	/*public static void lightMiner(Table table) {
+		Runnable runnable = new Runnable() {
+			@Override
+			public void run() {				
+				ExecutorService service = Executors.newFixedThreadPool(30);
+				TableItem[] items = table.getSelection();	
+				final int size = items.length;
+				CountDownLatch countDownLatch = new CountDownLatch(size);
+				List<Future<String>> statusList =  new ArrayList<>();
+				for(TableItem item : items) {
+					MinerLedCall mr = new MinerLedCall(item,countDownLatch);
+					statusList.add(service.submit(mr));
+				}
+				int index = 0;				
+				for(TableItem item : items) {
+					Future<String> fs = statusList.get(index);
+					index++;
+					try {
+						String result = fs.get();						
+						Display.getDefault().asyncExec(new Runnable() {
+							@Override
+							public void run() {
+								if(result != null) {
+									item.setText(1, "重启成功!");
+								}																
+								if(countDownLatch.getCount() == 0) {
+									//完成
+									ButtonStatusService.enableButton();
+					        		table.setEnabled(true);
+								}
+							}
+						});
+					}catch(Exception e) {
+						e.printStackTrace();
+					}
+				}
+			}			
+		};
+		new Thread(runnable).start();
+	}*/
+	
 	//固定IP界面的矿机重启
 	public static void fixedIpReboot(Table macTable) {
 		Runnable runnable = new Runnable() {

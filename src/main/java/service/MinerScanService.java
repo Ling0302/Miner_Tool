@@ -1,5 +1,7 @@
 package service;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -101,6 +103,7 @@ public class MinerScanService {
             					}else if(minerScanVO.getCode() == 1) {
             						//正常矿机
             						okIndex++;
+            						//minerScanVO.setSequence(index);
             					}else if(minerScanVO.getCode() == 2){
             						//unknown矿机
             						unknownIndex++;
@@ -347,26 +350,29 @@ public class MinerScanService {
 		}
 		
 		public static void setResultTable(MinerScanVO minerScanVO,Table resultTable) {
+			LocalDateTime nowDateTime = LocalDateTime.now();
+			String nowTime = nowDateTime.format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm"));
 			String strArray[] = new String[] {
-					minerScanVO.getIp(),                               
+					nowTime,
+					minerScanVO.getIp(),
+					minerScanVO.getMacAddress(),
 					minerScanVO.getStatus(), 
 					minerScanVO.getMinerType(),
+					minerScanVO.getBinType(),
 					minerScanVO.getPoolUrl(),
 					minerScanVO.getWorker(),
 					minerScanVO.getNowCp(),
 					minerScanVO.getAvgCp(),
-					minerScanVO.getPoint(),
+					minerScanVO.getUptime(),
 					minerScanVO.getFirmwareVersion(),
-					minerScanVO.getSoftVersion(),
+					//minerScanVO.getSoftVersion(),
 					minerScanVO.getTemperature(),
 					minerScanVO.getFanSpeed(),
 					minerScanVO.getFanDuty(),
 					minerScanVO.getDevFreq(),
 					minerScanVO.getChipVolt(),
 					minerScanVO.getVolt(),					
-					minerScanVO.getNetworkType(),
-					minerScanVO.getMacAddress(),
-					minerScanVO.getUptime(),
+					minerScanVO.getNetworkType()
 			};
 			TableItem tableItem = new TableItem(resultTable, SWT.NONE);
 	        tableItem.setChecked(true);
@@ -408,13 +414,17 @@ public class MinerScanService {
 				versionStr += " | "+newVersion+"(new)";
 			}
 			
-			String str[] = new String[] {jol.getString("ipSeq"),                               
-	                jol.getString("minerType"), 
+			
+			String str[] = new String[] {
+					jol.getString("ipSeq"),                               
+	                jol.getString("minerType"),
+	                jol.getString("binType"),
 	                jol.getString("url"), 
-	                jol.getString("worker"), 
-	                jol.getString("sn"), 
+	                jol.getString("worker"),
+	                //jol.getString("sn"), 
 	                jol.get("avgHashRate") == null || jol.get("avgHashRate").equals("")? "0" : StringUtils.round(jol.getFloat("avgHashRate")/1024,2), 
 	                jol.get("hashRate") == null || jol.get("hashRate").equals("")? "0" : StringUtils.round(jol.getFloat("hashRate")/1024,2), 
+	                jol.get("uptime")==null || jol.get("uptime").equals("") ? "": StringUtils.round(jol.getFloat("uptime")/60,2),
 	                jol.getString("diff") == null|| jol.get("diff").equals("") ? "" : jol.getString("diff"),
 	                jol.getString("jobs") == null|| jol.get("jobs").equals("") ? "" : jol.getString("jobs"),
 	                jol.getString("sharesSent") == null|| jol.get("sharesSent").equals("") ? "" : jol.getString("sharesSent"),
@@ -425,7 +435,7 @@ public class MinerScanService {
 	                jol.getString("psuMaxInTemp")==null||jol.getString("psuMaxOutTemp")==null?"":StringUtils.formatNull(jol.getString("psuMaxInTemp") + "/" + jol.getString("psuMaxOutTemp")),
 	                versionStr,
 	                jol.getString("rejectedRate")==null?"":(jol.getString("rejectedRate")+"%"), 
-	                jol.get("upTime")==null || jol.get("upTime").equals("") ? "": StringUtils.round(jol.getFloat("upTime")/60,2), 
+	                //jol.get("upTime")==null || jol.get("upTime").equals("") ? "": StringUtils.round(jol.getFloat("upTime")/60,2), 
 	                "ON".equals(jol.getString("hashboardStatus")) ? "休眠" : Constants.STATUS[jol.getInteger("status") - 1]
 	                };
 			return str;

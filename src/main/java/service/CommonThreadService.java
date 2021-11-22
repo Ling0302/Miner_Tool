@@ -78,7 +78,7 @@ public class CommonThreadService {
 					            	}
 									progressBar.setData("type", "矿机扫描");
 									progressBar.setData("content", ips2.get(num-1)+"("+num+"/"+ips2.size()+")");
-									//System.out.println(progress);
+									System.out.println(progress);
 									if (jol.getInteger("status") == 1 )
 				                    {
 										String minertype = jol.getString("minertype");
@@ -91,6 +91,7 @@ public class CommonThreadService {
 											System.out.println("Whats矿机设备发现成功！");
 											setEbtTableData(jol,resultTable);//与翼比特矿机通用结果集
 										}else {
+											System.out.println("this is cheetah miner!");
 											String strArray[] = getArrayJol(jol);
 					    	            	setTableData(strArray,resultTable,jol);	
 										}
@@ -320,11 +321,12 @@ public class CommonThreadService {
 		}
 		
 		String str[] = new String[] {jol.getString("ipSeq"),                               
-                jol.getString("minerType"), 
+                jol.getString("minerType"),
+                jol.getString("binType"),
                 jol.getString("url"), 
                 jol.getString("worker"), 
-                jol.getString("sn"), 
-                jol.get("avgHashRate") == null || jol.get("avgHashRate").equals("")? "0" : StringUtils.round(jol.getFloat("avgHashRate")/1024,2), 
+                //jol.getString("sn"), 
+                /*jol.get("avgHashRate") == null || jol.get("avgHashRate").equals("")? "0" : StringUtils.round(jol.getFloat("avgHashRate")/1024,2), 
                 jol.get("hashRate") == null || jol.get("hashRate").equals("")? "0" : StringUtils.round(jol.getFloat("hashRate")/1024,2), 
                 jol.getString("diff") == null|| jol.get("diff").equals("") ? "" : jol.getString("diff"),
                 jol.getString("jobs") == null|| jol.get("jobs").equals("") ? "" : jol.getString("jobs"),
@@ -337,7 +339,7 @@ public class CommonThreadService {
                 versionStr,
                 jol.getString("rejectedRate")==null?"":(jol.getString("rejectedRate")+"%"), 
                 jol.get("upTime")==null || jol.get("upTime").equals("") ? "": StringUtils.round(jol.getFloat("upTime")/60,2), 
-                "ON".equals(jol.getString("hashboardStatus")) ? "休眠" : Constants.STATUS[jol.getInteger("status") - 1]
+                "ON".equals(jol.getString("hashboardStatus")) ? "休眠" : Constants.STATUS[jol.getInteger("status") - 1]*/
                 };
 		return str;
 	}

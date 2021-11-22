@@ -6,7 +6,7 @@ import common.LangConfig;
 public class UiService {
 
 	public static void UiLang() {
-		MinerCheckApp.shell.setText(LangConfig.getKey("app"));
+		MinerCheckApp.shell.setText("BYY矿机老化工具-V1.0");
 		
 		MinerCheckApp.tabItem_1.setText(LangConfig.getKey("app.tab.scan"));
 		MinerCheckApp.tabItem_3.setText(LangConfig.getKey("app.tab.staticIp"));
@@ -16,19 +16,20 @@ public class UiService {
 		MinerCheckApp.btnCheck_select_all.setText(LangConfig.getKey("app.check.ipRange"));
 		MinerCheckApp.button_display_success.setText(LangConfig.getKey("app.check.show"));
 		MinerCheckApp.button_scan.setText(LangConfig.getKey("app.check.scanMiner"));
-		if(MinerCheckApp.isMonitor) {			
+		/*if(MinerCheckApp.isMonitor) {			
 			MinerCheckApp.button_monitor.setText(LangConfig.getKey("app.check.stopMonitor"));
 			MinerCheckApp.lblNewLabel_10.setText(LangConfig.getKey("app.check.isMonitor"));			
 		}else {
 			MinerCheckApp.button_monitor.setText(LangConfig.getKey("app.check.monitorMiner"));
 			MinerCheckApp.lblNewLabel_10.setText(LangConfig.getKey("app.check.noMonitor"));
-		}
-		MinerCheckApp.button_config_all.setText(LangConfig.getKey("app.check.configAll"));
-		MinerCheckApp.button_config_select.setText(LangConfig.getKey("app.check.configSelect"));
-		MinerCheckApp.button_reset.setText(LangConfig.getKey("app.check.restartMiner"));
+		}*/
+		//MinerCheckApp.button_config_all.setText(LangConfig.getKey("app.check.configAll"));
+		//MinerCheckApp.button_config_select.setText(LangConfig.getKey("app.check.configSelect"));
+		//MinerCheckApp.button_reset.setText(LangConfig.getKey("app.check.restartMiner"));
 		MinerCheckApp.button_export.setText(LangConfig.getKey("app.check.export"));
-		MinerCheckApp.button_setting.setText(LangConfig.getKey("app.check.setting"));
-		MinerCheckApp.lblNewLabel_11.setText(LangConfig.getKey("app.check.ipNum"));
+		MinerCheckApp.button_lighton.setText("点红灯");
+		//MinerCheckApp.button_setting.setText(LangConfig.getKey("app.check.setting"));
+		//MinerCheckApp.lblNewLabel_11.setText(LangConfig.getKey("app.check.ipNum"));
 		MinerCheckApp.lblNewLabel_24.setText(LangConfig.getKey("app.check.lang"));
 		
 		MinerCheckApp.btnCheckButton_1.setText(LangConfig.getKey("app.check.pool1"));
@@ -56,16 +57,19 @@ public class UiService {
 		MinerCheckApp.button_2.setText(LangConfig.getKey("app.check.find"));
 		MinerCheckApp.button_3.setText(LangConfig.getKey("app.check.all"));
 		
+		MinerCheckApp.tblclmn_datetime.setText("日期");
+		//MinerCheckApp.tblclmn_index.setText("序号");
 		MinerCheckApp.tblclmn_ip.setText(LangConfig.getKey("app.check.table.ip"));
 		MinerCheckApp.tblclmn_status.setText(LangConfig.getKey("app.check.table.status"));
 		MinerCheckApp.tblclmn_minerType.setText(LangConfig.getKey("app.check.table.minerType"));
+		MinerCheckApp.tblclmn_binType.setText("BIN");
 		MinerCheckApp.tblclmn_pool.setText(LangConfig.getKey("app.check.table.pool"));
 		MinerCheckApp.tblclmn_worker.setText(LangConfig.getKey("app.check.table.worker"));
 		MinerCheckApp.tblclmn_realHash.setText(LangConfig.getKey("app.check.table.realHash"));
 		MinerCheckApp.tblclmn_avgHash.setText(LangConfig.getKey("app.check.table.avgHash"));
-		MinerCheckApp.tblclmn_point.setText(LangConfig.getKey("app.check.table.point"));
+		MinerCheckApp.tblclmn_runningTime.setText(LangConfig.getKey("app.check.table.runningTime"));
 		MinerCheckApp.tblclmn_firmwareVersion.setText(LangConfig.getKey("app.check.table.firmwareVersion"));
-		MinerCheckApp.tblclmn_softVersion.setText(LangConfig.getKey("app.check.table.softVersion"));
+		//MinerCheckApp.tblclmn_softVersion.setText(LangConfig.getKey("app.check.table.softVersion"));
 		MinerCheckApp.tblclmn_temperature.setText(LangConfig.getKey("app.check.table.temperature"));
 		MinerCheckApp.tblclmn_fanSpeed.setText(LangConfig.getKey("app.check.table.fanSpeed"));
 		MinerCheckApp.tblclmn_fanDuty.setText(LangConfig.getKey("app.check.table.fanDuty"));
@@ -74,7 +78,6 @@ public class UiService {
 		MinerCheckApp.tblclmn_volt.setText(LangConfig.getKey("app.check.table.volt"));
 		MinerCheckApp.tblclmn_networkType.setText(LangConfig.getKey("app.check.table.networkType"));   
 		MinerCheckApp.tblclmn_macAddress.setText(LangConfig.getKey("app.check.table.macAddress"));
-		MinerCheckApp.tblclmn_runningTime.setText(LangConfig.getKey("app.check.table.runningTime"));
 		
 		//UI-static ip
 		MinerCheckApp.lblNewLabel_14.setText(LangConfig.getKey("app.static.network"));
@@ -133,8 +136,8 @@ public class UiService {
 	    //upgrade ui
 	    MinerCheckApp.lblNewLabel_19.setText(LangConfig.getKey("app.upgrade.ipRange"));
 	    MinerCheckApp.btnNewButton_2.setText(LangConfig.getKey("app.upgrade.minerFind"));
-	    MinerCheckApp.lblNewLabel_20.setText(LangConfig.getKey("app.upgrade.username"));
-	    MinerCheckApp.lblNewLabel_21.setText(LangConfig.getKey("app.upgrade.password"));
+	    //MinerCheckApp.lblNewLabel_20.setText(LangConfig.getKey("app.upgrade.username"));
+	    //MinerCheckApp.lblNewLabel_21.setText(LangConfig.getKey("app.upgrade.password"));
 	    MinerCheckApp.btnNewButton_3.setText(LangConfig.getKey("app.upgrade.fileSelect"));
 	    MinerCheckApp.button_6.setText(LangConfig.getKey("app.upgrade.upgradeStart"));
 	    MinerCheckApp.btnCheckButton_6.setText(LangConfig.getKey("app.upgrade.allSelect"));

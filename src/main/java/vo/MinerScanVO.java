@@ -9,9 +9,11 @@ import utils.CgminerUtil;
 
 public class MinerScanVO {
 
+	private int sequence;//序号
 	private String ip;//ip地址
 	private String status;//状态
 	private String minerType;//矿机类型
+	private String binType;//矿机BIN
 	private String poolUrl;//矿池
 	private String worker;//矿工
 	private String nowCp;//实时算力(1min算力)
@@ -78,6 +80,12 @@ public class MinerScanVO {
 	public void setIsMiner(boolean isMiner) {
 		this.isMiner = isMiner;
 	}
+	public int getSequence() {
+		return sequence;
+	}
+	public void setSequence(int sequence) {
+		this.sequence = sequence;
+	}
 	public String getIp() {
 		return ip;
 	}
@@ -95,6 +103,12 @@ public class MinerScanVO {
 	}
 	public void setMinerType(String minerType) {
 		this.minerType = minerType;
+	}
+	public String getBinType() {
+		return binType;
+	}
+	public void setBinType(String binType) {
+		this.binType = binType;
 	}
 	public String getPoolUrl() {
 		return poolUrl;
@@ -171,14 +185,14 @@ public class MinerScanVO {
 	
 	public void getCgminerVO(MinerScanVO minerScanVO) {
 		String cgminerResult = CgminerUtil.call(minerScanVO.getIp(),4028,"pools+stats", "");
-		//logger.info("cgminer-pools+stats:{}",cgminerResult);
+		//System.out.println(cgminerResult);
 		if(cgminerResult != null) {
 			minerScanVO.setIsMiner(true);
 			minerScanVO.setCode(2);
 			if(minerScanVO.getMinerType() == null || "".equals(minerScanVO.getMinerType())) {
 				minerScanVO.setMinerType("unknown");
 			}			
-			minerScanVO.setStatus("running");
+			minerScanVO.setStatus(minerScanVO.getStatus());
 			try {
 				//解析cgminer-socketAPI-json
 				JSONObject jol = JSON.parseObject(cgminerResult);
@@ -272,14 +286,14 @@ public class MinerScanVO {
 				minerScanVO.setAvgCp(String.format("%.2f", cpAv/1000/1000));
 				//logger.info("ip-[{}]cgminer scan success！",ip);
 			}catch(Exception e2) {
-				minerScanVO.setIsMiner(false);
+				//minerScanVO.setIsMiner(false);
 				//logger.error("Exeptions:[{}]",e2);
 				e2.printStackTrace();
 			}			
 		}else {				
-			minerScanVO.setStatus(LangConfig.getKey("app.message.connectRefuse"));
+			//minerScanVO.setStatus(LangConfig.getKey("app.message.connectRefuse"));
 			minerScanVO.setCode(0);
-			minerScanVO.setIsMiner(false);
+			//minerScanVO.setIsMiner(false);
 			//logger.info("ip-[{}] is not a miner！",ip);
 		}		
 		//System.out.println(JSON.toJSONString(minerScanVO));

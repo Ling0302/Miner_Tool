@@ -122,7 +122,8 @@ public class MinerScanTaskTimer extends TimerTask
                         TableItem tableItem = new TableItem(resultTable, SWT.NONE);
                         tableItem.setChecked(true);
                         tableItem.setText(new String[] {jol.getString("ipSeq"),                               
-                                jol.getString("minerType"), 
+                                jol.getString("minerType"),
+                                jol.getString("binType"),
                                 jol.getString("url"), 
                                 jol.getString("worker"), 
                                 jol.getString("sn"), 

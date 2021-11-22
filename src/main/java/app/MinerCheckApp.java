@@ -1,5 +1,6 @@
 package app;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -55,6 +56,8 @@ import service.FileService;
 import service.FixedIpUiService;
 import service.IPReportThreadService;
 import service.IpSettingServcie;
+import service.LedCtrlService;
+import service.MinerBatchService;
 import service.MinerCmdService;
 import service.MinerScanService;
 import service.MinerSearchService;
@@ -161,15 +164,16 @@ public class MinerCheckApp
     public static Button btnCheck_select_all;
     public static Button button_display_success;
     public static Button button_scan;
-    public static Button button_monitor;
-    public static Button button_config_all;
-    public static Button button_config_select;
-    public static Button button_reset;
+    //public static Button button_monitor;
+    //public static Button button_config_all;
+    //public static Button button_config_select;
+    //public static Button button_reset;
     public static Button button_export;
-    public static Button button_setting;
-    public static Label lblNewLabel_11;
+    public static Button button_lighton;
+    //public static Button button_setting;
+    //public static Label lblNewLabel_11;
     public static Label lblNewLabel_24;
-    public static Label lblNewLabel_10;
+    //public static Label lblNewLabel_10;
     
     public static Button btnCheckButton_1;
     public static Label lblNewLabel;
@@ -201,14 +205,17 @@ public class MinerCheckApp
     public static Button button_2;
     public static Button button_3;
     
+    public static TableColumn tblclmn_datetime;
+    public static TableColumn tblclmn_index;
+    public static TableColumn tblclmn_operation;
     public static TableColumn tblclmn_ip;
     public static TableColumn tblclmn_status;
     public static TableColumn tblclmn_minerType;
+    public static TableColumn tblclmn_binType;
     public static TableColumn tblclmn_pool;
     public static TableColumn tblclmn_worker;
     public static TableColumn tblclmn_realHash;
     public static TableColumn tblclmn_avgHash;
-    public static TableColumn tblclmn_point;
     public static TableColumn tblclmn_firmwareVersion;
     public static TableColumn tblclmn_softVersion;
     public static TableColumn tblclmn_temperature;
@@ -285,8 +292,8 @@ public class MinerCheckApp
     //upgrade ui
     public static Label lblNewLabel_19;
     public static Button btnNewButton_2;
-    public static Label lblNewLabel_20;
-    public static Label lblNewLabel_21;
+    //public static Label lblNewLabel_20;
+    //public static Label lblNewLabel_21;
     public static Button btnNewButton_3;
     public static Button button_6;
     public static Button btnCheckButton_6;
@@ -590,8 +597,8 @@ public class MinerCheckApp
         button_scan.setText("扫描矿机");
         button_scan.setBounds(10, 0, 60, 27);
         
-        button_monitor = new Button(composite_toolbar, SWT.NONE);
-        
+        //button_monitor = new Button(composite_toolbar, SWT.NONE);
+        /*
         button_monitor.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent e) {
@@ -620,54 +627,54 @@ public class MinerCheckApp
             }
         });
         button_monitor.setText("监控矿机");
-        button_monitor.setBounds(75, 0, 60, 27);
+        button_monitor.setBounds(75, 0, 60, 27);*/
         
-        button_config_all = new Button(composite_toolbar, SWT.NONE);
-        button_config_all.addSelectionListener(new SelectionAdapter() {
-        	@Override
-        	public void widgetSelected(SelectionEvent e) {
-        		MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));    	
+        //button_config_all = new Button(composite_toolbar, SWT.NONE);
+        //button_config_all.addSelectionListener(new SelectionAdapter() {
+        	//@Override
+        	//public void widgetSelected(SelectionEvent e) {
+        		//MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));    	
 //        		Integer spinnerIp = spinner.getSelection();
 //        		List<PoolVO> poolList = getPoolList();
 //        		MinerBatchService.configAllPool(resultTable, poolList, spinnerIp);
         		//MinerCmdService.configAllMiner(shell, resultTable,getPoolList(),spinner);
-        	}
-        });
-        button_config_all.setText("配置所有矿机");
-        button_config_all.setBounds(140, 0, 84, 27);
+        	//}
+        //});
+        //button_config_all.setText("配置所有矿机");
+        //button_config_all.setBounds(140, 0, 84, 27);
         
-        button_config_select = new Button(composite_toolbar, SWT.NONE);
-        button_config_select.addSelectionListener(new SelectionAdapter() {
-        	@Override
-        	public void widgetSelected(SelectionEvent e) {
-        		MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));
-//        		Integer spinnerIp = spinner.getSelection();
-//        		List<PoolVO> poolList = getPoolList();
-//        		if(!MinerBatchService.isHaveRecord(resultTable)) {
-//        			MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
-//        			return;
-//        		}
-//        		MinerBatchService.configSelectPool(resultTable, poolList, spinnerIp);
+        //button_config_select = new Button(composite_toolbar, SWT.NONE);
+        //button_config_select.addSelectionListener(new SelectionAdapter() {
+        	//@Override
+        	//public void widgetSelected(SelectionEvent e) {
+        		// MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));
+        		//Integer spinnerIp = spinner.getSelection();
+        		//List<PoolVO> poolList = getPoolList();
+        		//if(!MinerBatchService.isHaveRecord(resultTable)) {
+        			//MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
+        			//return;
+        		//}
+        		//MinerBatchService.configSelectPool(resultTable, poolList, spinnerIp);
         		//MinerCmdService.configSelectMiner(shell, resultTable,getPoolList(),spinner);
-        	}
-        });
-        button_config_select.setText("配置选中矿机");
-        button_config_select.setBounds(230, 0, 84, 27);
+        	//}
+        //});
+        //button_config_select.setText("配置选中矿机");
+        //button_config_select.setBounds(230, 0, 84, 27);
         
-        button_reset = new Button(composite_toolbar, SWT.NONE);
-        button_reset.addSelectionListener(new SelectionAdapter() {
-            @Override
-            public void widgetSelected(SelectionEvent e) {
-            	MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));
+        //button_reset = new Button(composite_toolbar, SWT.NONE);
+        //button_reset.addSelectionListener(new SelectionAdapter() {
+           // @Override
+            //public void widgetSelected(SelectionEvent e) {
+            	//MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));
 //            	if(!MinerBatchService.isHaveRecord(resultTable)) {
 //            		MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
 //        			return;
 //        		}
             	//MinerCmdService.rebootAction(shell,resultTable);
-            }
-        });
-        button_reset.setText("重启矿机");
-        button_reset.setBounds(319, 0, 84, 27);
+            //}
+        //});
+        //button_reset.setText("重启矿机");
+        //button_reset.setBounds(319, 0, 84, 27);
         
         button_export = new Button(composite_toolbar, SWT.NONE);
         button_export.addSelectionListener(new SelectionAdapter() {
@@ -677,7 +684,41 @@ public class MinerCheckApp
         	}
         });
         button_export.setText("导出");
-        button_export.setBounds(408, 0, 60, 27);
+        //button_export.setBounds(408, 0, 60, 27);
+        button_export.setBounds(75, 0, 60, 27);
+        
+        button_lighton = new Button(composite_toolbar, SWT.NONE);
+    	button_lighton.addSelectionListener(new SelectionAdapter() {
+    	@Override
+    	public void widgetSelected(SelectionEvent e) {
+    		// Integer spinnerIp = spinner.getSelection();
+    		if(!MinerBatchService.isHaveRecord(resultTable)) {
+    			MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
+    			return;
+    		}
+    		
+    		TableItem[] items = resultTable.getItems();         		
+    		List<String> selectedIps = new ArrayList<>();
+    		for(int i=0;i<items.length;i++) {
+    			TableItem item = items[i];
+    			if(item.getChecked()) {
+    				selectedIps.add(items[i].getText(1).trim());
+    			}
+    		}
+    		
+    		//TableItem[] items = resultTable.getSelection();
+    		LedCtrlService.redon(shell, selectedIps);
+    	  }
+    	});
+        
+        //button_lighton.addSelectionListener(new SelectionAdapter() {
+        	//@Override
+        	//public void widgetSelected(SelectionEvent e) {
+        		//LedCtrlService.redon(shell,resultTable);
+        	//}
+        //});
+        button_lighton.setText("点红灯");
+        button_lighton.setBounds(140, 0, 60, 27);
         
 //        Button button_close_hash = new Button(composite_toolbar, SWT.NONE);
 //        button_close_hash.addSelectionListener(new SelectionAdapter() {
@@ -689,7 +730,7 @@ public class MinerCheckApp
 //        button_close_hash.setBounds(409, 0, 80, 27);
 //        button_close_hash.setText("关闭矿机");
         
-        button_setting = new Button(composite_toolbar, SWT.NONE);
+        /*button_setting = new Button(composite_toolbar, SWT.NONE);
         button_setting.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent e) {
@@ -698,7 +739,7 @@ public class MinerCheckApp
             }
         });
         button_setting.setBounds(474, 0, 60, 27);
-        button_setting.setText("设置");
+        button_setting.setText("设置");*/
         
 //        Button button = new Button(composite_toolbar, SWT.NONE);
 //        button.addSelectionListener(new SelectionAdapter() {
@@ -710,10 +751,10 @@ public class MinerCheckApp
 //        button.setText("开启矿机");
 //        button.setBounds(495, 0, 80, 27);
         
-        lblNewLabel_10 = new Label(composite_toolbar, SWT.NONE);
-        lblNewLabel_10.setBounds(823, 5, 72, 17);
-        lblNewLabel_10.setForeground(SWTResourceManager.getColor(SWT.COLOR_RED));
-        lblNewLabel_10.setText("未监控");
+        //lblNewLabel_10 = new Label(composite_toolbar, SWT.NONE);
+        //lblNewLabel_10.setBounds(823, 5, 72, 17);
+        //lblNewLabel_10.setForeground(SWTResourceManager.getColor(SWT.COLOR_RED));
+        //lblNewLabel_10.setText("未监控");
         
 //        Button button_1 = new Button(composite_toolbar, SWT.NONE);
 //        button_1.addSelectionListener(new SelectionAdapter() {
@@ -725,7 +766,7 @@ public class MinerCheckApp
 //        button_1.setBounds(581, 0, 57, 27);
 //        button_1.setText("版本升级");
         
-        lblNewLabel_11 = new Label(composite_toolbar, SWT.NONE);
+        /*lblNewLabel_11 = new Label(composite_toolbar, SWT.NONE);
         lblNewLabel_11.setBounds(705, 5, 70, 17);
         lblNewLabel_11.setText("矿工(IP位数):");
         
@@ -733,7 +774,7 @@ public class MinerCheckApp
         spinner.setBounds(781, 2, 36, 23);
         spinner.setMaximum(4);
 		spinner.setMinimum(1);
-		spinner.setSelection(3);
+		spinner.setSelection(3);*/
 		
 		Combo combo_1 = new Combo(composite_toolbar, SWT.NONE | SWT.READ_ONLY);
 		combo_1.setBounds(629, 2, 70, 25);
@@ -1111,10 +1152,22 @@ public class MinerCheckApp
         resultTable.setHeaderVisible(true);
         resultTable.setLinesVisible(true);
         
+        tblclmn_datetime = new TableColumn(resultTable, SWT.NONE);
+        tblclmn_datetime.setWidth(150);
+        tblclmn_datetime.setText("日期");
+        
+        /*tblclmn_index = new TableColumn(resultTable, SWT.NONE);
+        tblclmn_index.setWidth(50);
+        tblclmn_index.setText("序号");*/
+        
         tblclmn_ip = new TableColumn(resultTable, SWT.NONE);
-        tblclmn_ip.setWidth(150);
+        tblclmn_ip.setWidth(120);
         tblclmn_ip.setText("IP");
-               
+        
+        tblclmn_macAddress = new TableColumn(resultTable, SWT.NONE);
+        tblclmn_macAddress.setWidth(120);
+        tblclmn_macAddress.setText("mac地址");
+                
         tblclmn_status = new TableColumn(resultTable, SWT.NONE );
         tblclmn_status.setWidth(120);
         tblclmn_status.setText("状态");
@@ -1122,6 +1175,10 @@ public class MinerCheckApp
         tblclmn_minerType = new TableColumn(resultTable, SWT.NONE);
         tblclmn_minerType.setWidth(100);
         tblclmn_minerType.setText("矿机类型");
+        
+        tblclmn_binType = new TableColumn(resultTable, SWT.NONE);
+        tblclmn_binType.setWidth(60);
+        tblclmn_binType.setText("BIN");
         
         tblclmn_pool = new TableColumn(resultTable, SWT.NONE);
         tblclmn_pool.setWidth(150);
@@ -1138,18 +1195,18 @@ public class MinerCheckApp
         tblclmn_avgHash = new TableColumn(resultTable, SWT.NONE);
         tblclmn_avgHash.setWidth(100);
         tblclmn_avgHash.setText("平均算力");
-             
-        tblclmn_point = new TableColumn(resultTable, SWT.NONE);
-        tblclmn_point.setWidth(60);
-        tblclmn_point.setText("位置");
+        
+        tblclmn_runningTime = new TableColumn(resultTable, SWT.NONE);
+        tblclmn_runningTime.setWidth(100);
+        tblclmn_runningTime.setText("运行时长(分钟)");
         
         tblclmn_firmwareVersion = new TableColumn(resultTable, SWT.NONE);
-        tblclmn_firmwareVersion.setWidth(70);
+        tblclmn_firmwareVersion.setWidth(120);
         tblclmn_firmwareVersion.setText("固件版本");
         
-        tblclmn_softVersion = new TableColumn(resultTable, SWT.NONE);
+        /*tblclmn_softVersion = new TableColumn(resultTable, SWT.NONE);
         tblclmn_softVersion.setWidth(80);
-        tblclmn_softVersion.setText("软件版本");
+        tblclmn_softVersion.setText("软件版本");*/
         
         tblclmn_temperature = new TableColumn(resultTable, SWT.NONE);
         tblclmn_temperature.setWidth(120);
@@ -1179,13 +1236,10 @@ public class MinerCheckApp
         tblclmn_networkType.setWidth(100);
         tblclmn_networkType.setText("网络类型");
         
-        tblclmn_macAddress = new TableColumn(resultTable, SWT.NONE);
+        /*tblclmn_macAddress = new TableColumn(resultTable, SWT.NONE);
         tblclmn_macAddress.setWidth(120);
-        tblclmn_macAddress.setText("mac地址");
+        tblclmn_macAddress.setText("mac地址");*/
         
-        tblclmn_runningTime = new TableColumn(resultTable, SWT.NONE);
-        tblclmn_runningTime.setWidth(100);
-        tblclmn_runningTime.setText("运行时长(分钟)");
         
         addTableListener(resultTable);//超链
         addSortTableListener(resultTable);
@@ -1612,7 +1666,7 @@ public class MinerCheckApp
         	}
         });
         
-        lblNewLabel_20 = new Label(composite_20, SWT.NONE);
+        /*lblNewLabel_20 = new Label(composite_20, SWT.NONE);
         lblNewLabel_20.setLayoutData(new GridData(SWT.RIGHT, SWT.CENTER, false, false, 1, 1));
         lblNewLabel_20.setText("用户名:");
         
@@ -1625,15 +1679,14 @@ public class MinerCheckApp
         
         text_32 = new Text(composite_20, SWT.BORDER);
         text_32.setText("");
-        text_32.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+        text_32.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));*/
         
         btnNewButton_3 = new Button(composite_20, SWT.NONE);
-        btnNewButton_3.setText("选择文件");
+        btnNewButton_3.setText("选择固件");
         btnNewButton_3.addSelectionListener(new SelectionAdapter() {
         	@Override
         	public void widgetSelected(SelectionEvent e) {
         		FileService.selectFile(shell,lblNewLabel_22);
-        		
         	}
         });
         
@@ -1642,25 +1695,25 @@ public class MinerCheckApp
         button_6.addSelectionListener(new SelectionAdapter() {
         	@Override
         	public void widgetSelected(SelectionEvent e) {
-        		MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));
-//        		if(isAction()) {
-//					MinerCmdService.infoDialog(shell, "请终止正在执行的操作，再试！（停止扫描，监控，IP加载等）");
-//					return;
-//				}       		        		
-//        		if(filePath == null || "".equals(filePath)) {
-//        			MinerCmdService.infoDialog(shell, "请选择固件文件后，再试！");
-//					return;
-//        		}
-//        		File file = new File(filePath);
-//        		Boolean fileSize = FileService.checkFileSize(file.length(),100,"M");
-//        		if(!fileSize) {
-//        			MinerCmdService.infoDialog(shell, "固件文件大小不能超过100M！");
-//					return;
-//        		}
-//        		if(!UpgradeUiService.isAllowUpgrade(filePath)) {
-//        			MinerCmdService.infoDialog(shell, "固件文件不合法，请重新选择固件！");
-//					return;
-//        		}
+        		//MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));
+        		if(isAction()) {
+					MinerCmdService.infoDialog(shell, "请终止正在执行的操作，再试！（停止扫描，监控，IP加载等）");
+					return;
+				}       		        		
+        		if(filePath == null || "".equals(filePath)) {
+        			MinerCmdService.infoDialog(shell, "请选择固件文件后，再试！");
+					return;
+        		}
+        		File file = new File(filePath);
+        		Boolean fileSize = FileService.checkFileSize(file.length(),100,"M");
+        		if(!fileSize) {
+        			MinerCmdService.infoDialog(shell, "固件文件大小不能超过100M！");
+					return;
+        		}
+        		if(!UpgradeUiService.isAllowUpgrade(filePath)) {
+        			MinerCmdService.infoDialog(shell, "固件文件不合法，请重新选择固件！");
+					return;
+        		}
 //        		String user = lblNewLabel_20.getText().trim();
 //        		String pass = lblNewLabel_21.getText().trim();
 //        		if("".equals(user)) {
@@ -1671,14 +1724,16 @@ public class MinerCheckApp
 //        			MinerCmdService.infoDialog(shell, "密码不能为空！");
 //					return;
 //        		}       		
-//        		TableItem[] t = table_gj.getSelection();
-//        		if(t.length == 0) {
-//        			MinerCmdService.infoDialog(shell, "没有矿机IP结果集！");
-//					return;
-//        		}
-//        		ButtonStatusService.disableButton();
-//        		table_gj.setEnabled(false);
-//        		UpgradeUiService.upgradeFile(table_gj);
+        		TableItem[] t = table_gj.getSelection();
+        		//TableItem[]  t = table_gj.getItems();
+        		System.out.println("正确数："+table_gj.getItemCount());
+        		if(t.length == 0) {
+        			MinerCmdService.infoDialog(shell, "请选中需要升级的矿机！");
+					return;
+        		}
+         		//ButtonStatusService.disableButton();
+        		table_gj.setEnabled(false);
+        		UpgradeUiService.upgradeFile(table_gj);
         		
         	}
         });
@@ -2105,16 +2160,16 @@ public class MinerCheckApp
         	    		    	  }else if(index == 2) {
         	    		    		  minertypeSort = !minertypeSort;
         	    		    		  TableColumnSorter.addStringSorter(table, table.getColumn(index),minertypeSort);
-        	    		    	  }else if(index == 4) {
+        	    		    	  }/*else if(index == 4) {
         	    		    		  workerSort = !workerSort;
         	    		    		  TableColumnSorter.addStringSorter(table, table.getColumn(index),workerSort);
-        	    		    	  }else if(index == 6) {
+        	    		    	  }*/else if(index == 6) {
         	    		    		  avgCpSort = !avgCpSort;
         	    		    		  TableColumnSorter.addNumberSorter(table, table.getColumn(index),avgCpSort);
-        	    		    	  }else if(index == 5) {
+        	    		    	  }/*else if(index == 5) {
         	    		    		  cpSort = !cpSort;
         	    		    		  TableColumnSorter.addNumberSorter(table, table.getColumn(index),cpSort);
-        	    		    	  }else if(index == 8) {
+        	    		    	  }*/else if(index == 8) {
         	    		    		  versionSort = !versionSort;
         	    		    		  TableColumnSorter.addStringSorter(table, table.getColumn(index),versionSort);
         	    		    	  }else if(index == 1) {

@@ -1601,3 +1601,939 @@
 2021-10-10 16:21:29 [INFO]-[app.MinerCheckApp] Miner-tool start!
 2021-10-10 16:21:33 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62-HXCR202213400175\n","uptime":"1290"}]
 2021-10-10 16:21:34 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"701"}]
+2021-10-10 16:22:32 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-10 16:22:32 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 16:22:32 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 16:22:36 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62-HXCR202213400175\n","uptime":"1352"}]
+2021-10-10 16:22:36 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"763"}]
+2021-10-10 16:25:51 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-10 16:25:51 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 16:25:51 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 16:26:16 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62-HXCR202213400175\n","uptime":"1572"}]
+2021-10-10 16:28:02 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62-HXCR202213400175\n","uptime":"1678"}]
+2021-10-10 16:28:52 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-10 16:28:52 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 16:28:52 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 16:29:56 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 16:29:56 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 16:30:01 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62-HXCR202213400175\n","uptime":"1797"}]
+2021-10-10 16:31:31 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62-HXCR202213400175\n","uptime":"1887"}]
+2021-10-10 16:35:02 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 16:35:02 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 16:35:05 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62-HXCR202213400175\n","uptime":"2102"}]
+2021-10-10 16:35:29 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62-HXCR202213400175\n","uptime":"2125"}]
+2021-10-10 16:41:16 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 16:41:16 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 16:41:28 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62-HXCR202213400175\n","uptime":"2484"}]
+2021-10-10 16:54:46 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30-BIN30-BIN30-","model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3283"}]
+2021-10-10 16:57:05 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 16:57:05 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 16:57:09 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30-BIN30-BIN30-","model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3426"}]
+2021-10-10 17:01:26 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 17:01:26 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 17:01:29 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30-BIN30-BIN30-","model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3685"}]
+2021-10-10 17:11:42 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30-BIN30-BIN30-","model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"4298"}]
+2021-10-10 17:13:00 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 17:13:00 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 17:13:04 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30-BIN30-BIN30-","model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"4380"}]
+2021-10-10 17:14:38 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 17:14:38 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 17:14:40 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30-BIN30-BIN30-","model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"4477"}]
+2021-10-10 17:29:56 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30-BIN30-BIN30-","model":"F9","firmware_version":" 20211010:0954","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"902"}]
+2021-10-10 17:31:39 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 17:31:39 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 17:41:18 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"286"}]
+2021-10-10 17:41:18 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"619"}]
+2021-10-10 17:41:40 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"308"}]
+2021-10-10 17:41:41 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"642"}]
+2021-10-10 17:42:49 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"377"}]
+2021-10-10 17:42:50 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"711"}]
+2021-10-10 17:45:22 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"146"}]
+2021-10-10 17:45:23 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"115"}]
+2021-10-10 17:48:15 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"320"}]
+2021-10-10 17:48:16 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"289"}]
+2021-10-10 17:50:10 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"435"}]
+2021-10-10 17:50:11 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"404"}]
+2021-10-10 17:50:19 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"443"}]
+2021-10-10 17:50:20 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"412"}]
+2021-10-10 17:51:01 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"486"}]
+2021-10-10 17:51:02 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"455"}]
+2021-10-10 17:54:57 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"721"}]
+2021-10-10 17:54:58 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"691"}]
+2021-10-10 18:01:00 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1085"}]
+2021-10-10 18:01:01 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1054"}]
+2021-10-10 18:04:42 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1306"}]
+2021-10-10 18:04:43 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"108"}]
+2021-10-10 18:05:49 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1373"}]
+2021-10-10 18:05:50 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"175"}]
+2021-10-10 18:06:03 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1388"}]
+2021-10-10 18:06:04 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"189"}]
+2021-10-10 18:08:26 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:08:26 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:08:30 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":" BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1534"}]
+2021-10-10 18:08:30 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"336"}]
+2021-10-10 18:09:30 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1594"}]
+2021-10-10 18:09:31 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"396"}]
+2021-10-10 18:13:12 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1816"}]
+2021-10-10 18:13:12 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"618"}]
+2021-10-10 18:13:49 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1854"}]
+2021-10-10 18:13:50 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"656"}]
+2021-10-10 18:14:48 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1913"}]
+2021-10-10 18:14:49 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"714"}]
+2021-10-10 18:20:45 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:20:45 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:20:49 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2274"}]
+2021-10-10 18:20:50 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1075"}]
+2021-10-10 18:21:25 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2310"}]
+2021-10-10 18:21:26 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1112"}]
+2021-10-10 18:22:46 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:22:47 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:22:50 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2394"}]
+2021-10-10 18:22:51 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1196"}]
+2021-10-10 18:24:04 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:24:04 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:24:08 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2472"}]
+2021-10-10 18:24:09 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1274"}]
+2021-10-10 18:25:20 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:25:21 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:25:24 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2549"}]
+2021-10-10 18:25:25 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1350"}]
+2021-10-10 18:29:20 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2785"}]
+2021-10-10 18:29:21 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1587"}]
+2021-10-10 18:31:51 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:31:52 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:33:35 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:33:35 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:33:46 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3051"}]
+2021-10-10 18:33:47 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1853"}]
+2021-10-10 18:36:14 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:36:14 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:36:18 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3203"}]
+2021-10-10 18:36:19 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2004"}]
+2021-10-10 18:38:21 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:38:21 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:39:49 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:39:49 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:39:59 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3423"}]
+2021-10-10 18:40:00 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2225"}]
+2021-10-10 18:42:01 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:42:02 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:43:09 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:43:09 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:43:19 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2424"}]
+2021-10-10 18:43:40 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"43"}]
+2021-10-10 18:43:41 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2446"}]
+2021-10-10 18:44:08 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"70"}]
+2021-10-10 18:44:09 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2474"}]
+2021-10-10 18:47:28 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 18:47:28 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 18:47:31 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"273"}]
+2021-10-10 18:47:32 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2677"}]
+2021-10-10 18:51:48 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"530"}]
+2021-10-10 18:51:49 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2934"}]
+2021-10-10 18:53:09 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"611"}]
+2021-10-10 18:53:10 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"3015"}]
+2021-10-10 19:04:37 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1299"}]
+2021-10-10 19:04:37 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"3703"}]
+2021-10-10 19:05:04 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1327"}]
+2021-10-10 19:05:05 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"3731"}]
+2021-10-10 19:13:05 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1808"}]
+2021-10-10 19:13:06 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"4212"}]
+2021-10-10 19:14:00 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1862"}]
+2021-10-10 19:14:01 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"4266"}]
+2021-10-10 19:16:31 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 19:16:31 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 19:16:34 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2016"}]
+2021-10-10 19:16:35 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"4420"}]
+2021-10-10 19:22:37 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2380"}]
+2021-10-10 19:22:38 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"4784"}]
+2021-10-10 19:24:14 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2476"}]
+2021-10-10 19:24:15 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"4880"}]
+2021-10-10 19:26:54 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 19:26:54 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 19:27:05 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2648"}]
+2021-10-10 19:27:06 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"5051"}]
+2021-10-10 19:29:42 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 19:29:42 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 19:29:46 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2808"}]
+2021-10-10 19:29:46 [ERROR]-[service.MinerScanCall] connect error!{}
+java.lang.NullPointerException
+	at vo.MinerScanVO.getCgminerVO(MinerScanVO.java:184)
+	at service.MinerScanCall.requestRemoteApi(MinerScanCall.java:72)
+	at service.MinerScanCall.call(MinerScanCall.java:35)
+	at service.MinerScanCall.call(MinerScanCall.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2021-10-10 19:29:46 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"5212"}]
+2021-10-10 19:29:46 [ERROR]-[service.MinerScanCall] connect error!{}
+java.lang.NullPointerException
+	at vo.MinerScanVO.getCgminerVO(MinerScanVO.java:184)
+	at service.MinerScanCall.requestRemoteApi(MinerScanCall.java:72)
+	at service.MinerScanCall.call(MinerScanCall.java:35)
+	at service.MinerScanCall.call(MinerScanCall.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2021-10-10 19:29:47 [ERROR]-[service.MinerScanCall] connect error!{}
+java.lang.NullPointerException
+	at vo.MinerScanVO.getCgminerVO(MinerScanVO.java:184)
+	at service.MinerScanCall.requestRemoteApi(MinerScanCall.java:72)
+	at service.MinerScanCall.call(MinerScanCall.java:35)
+	at service.MinerScanCall.call(MinerScanCall.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2021-10-10 19:29:49 [ERROR]-[service.MinerScanCall] connect error!{}
+java.lang.NullPointerException
+	at vo.MinerScanVO.getCgminerVO(MinerScanVO.java:184)
+	at service.MinerScanCall.requestRemoteApi(MinerScanCall.java:72)
+	at service.MinerScanCall.call(MinerScanCall.java:35)
+	at service.MinerScanCall.call(MinerScanCall.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2021-10-10 19:29:50 [ERROR]-[service.MinerScanCall] connect error!{}
+java.lang.NullPointerException
+	at vo.MinerScanVO.getCgminerVO(MinerScanVO.java:184)
+	at service.MinerScanCall.requestRemoteApi(MinerScanCall.java:72)
+	at service.MinerScanCall.call(MinerScanCall.java:35)
+	at service.MinerScanCall.call(MinerScanCall.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2021-10-10 19:29:51 [ERROR]-[service.MinerScanCall] connect error!{}
+java.lang.NullPointerException
+	at vo.MinerScanVO.getCgminerVO(MinerScanVO.java:184)
+	at service.MinerScanCall.requestRemoteApi(MinerScanCall.java:72)
+	at service.MinerScanCall.call(MinerScanCall.java:35)
+	at service.MinerScanCall.call(MinerScanCall.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2021-10-10 19:32:20 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 19:32:20 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 19:32:23 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2966"}]
+2021-10-10 19:32:24 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"5369"}]
+2021-10-10 19:36:31 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 19:36:31 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 19:36:35 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3217"}]
+2021-10-10 19:36:35 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"5621"}]
+2021-10-10 19:36:48 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3231"}]
+2021-10-10 19:36:49 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"5634"}]
+2021-10-10 19:41:32 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 19:41:33 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 19:41:35 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3518"}]
+2021-10-10 19:41:36 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"5922"}]
+2021-10-10 20:26:53 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"6235"}]
+2021-10-10 20:26:53 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"8639"}]
+2021-10-10 20:52:10 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 20:52:10 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 20:52:14 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"519","status":"正在老化..."}]
+2021-10-10 20:52:14 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"10160"}]
+2021-10-10 20:55:35 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 20:55:35 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 20:55:38 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"723","status":"正在老化..."}]
+2021-10-10 20:55:39 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"10364"}]
+2021-10-10 20:57:45 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"851","status":"正在老化..."}]
+2021-10-10 20:57:46 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"10491"}]
+2021-10-10 20:58:43 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"909","status":"正在老化..."}]
+2021-10-10 20:58:44 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"10550"}]
+2021-10-10 21:00:39 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1024","status":"正在老化..."}]
+2021-10-10 21:00:40 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"10665"}]
+2021-10-10 21:10:15 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:10:15 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:11:49 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:11:49 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:12:26 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:12:26 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:12:30 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1735","status":"正在老化..."}]
+2021-10-10 21:12:31 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"11376"}]
+2021-10-10 21:12:43 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1749","status":"正在老化..."}]
+2021-10-10 21:12:44 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"11390"}]
+2021-10-10 21:14:15 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:14:15 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:14:19 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1844","status":"正在老化..."}]
+2021-10-10 21:14:19 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"11485"}]
+2021-10-10 21:16:40 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"1986","status":"正在老化..."}]
+2021-10-10 21:16:41 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"11626"}]
+2021-10-10 21:20:23 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2209","status":"正在老化..."}]
+2021-10-10 21:20:24 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"11850"}]
+2021-10-10 21:20:49 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2235","status":"正在老化..."}]
+2021-10-10 21:20:50 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"11875"}]
+2021-10-10 21:21:30 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:21:30 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:21:34 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2279","status":"正在老化..."}]
+2021-10-10 21:21:35 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"11920"}]
+2021-10-10 21:21:57 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:21:57 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:22:00 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2306","status":"正在老化..."}]
+2021-10-10 21:22:01 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"11946"}]
+2021-10-10 21:22:35 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:22:35 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:22:48 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:22:48 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:22:51 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2357","status":"正在老化..."}]
+2021-10-10 21:22:52 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"11998"}]
+2021-10-10 21:25:54 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:25:55 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:26:25 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:26:25 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:26:28 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2574","status":"正在老化..."}]
+2021-10-10 21:26:29 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"12215"}]
+2021-10-10 21:30:12 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2797","status":"正在老化..."}]
+2021-10-10 21:30:13 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"12438"}]
+2021-10-10 21:33:24 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"2989","status":"正在老化..."}]
+2021-10-10 21:33:25 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"12630"}]
+2021-10-10 21:38:05 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 21:38:05 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 21:38:45 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3310","status":"正在老化..."}]
+2021-10-10 21:38:46 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"12951"}]
+2021-10-10 21:41:04 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3450","status":"正在老化..."}]
+2021-10-10 21:41:05 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"13090"}]
+2021-10-10 21:41:15 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3461","status":"正在老化..."}]
+2021-10-10 21:41:16 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"13102"}]
+2021-10-10 21:46:30 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"3776","status":"正在老化..."}]
+2021-10-10 21:46:31 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"13416"}]
+2021-10-10 21:56:17 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"4363","status":"NG:chain 0 : HW_error"}]
+2021-10-10 21:56:18 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"14004"}]
+2021-10-10 21:56:30 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"4376","status":"NG:chain 0 : HW_error"}]
+2021-10-10 21:56:31 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"14017"}]
+2021-10-10 22:51:27 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"7672","status":"NG:chain 0 : HW_error"}]
+2021-10-10 22:59:54 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-10 22:59:54 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-10 23:00:13 [INFO]-[service.MinerScanCall] ip [192.168.10.12] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:1720","network_type":"dhcp","mac":"02:B0:B8:DA:7A:62","uptime":"8199","status":"NG:chain 0 : HW_error"}]
+2021-10-11 14:18:20 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"1059"}]
+2021-10-11 14:24:53 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1531"}]
+2021-10-11 14:25:11 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1548"}]
+2021-10-11 14:25:11 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"26","status":"NG:"}]
+2021-10-11 14:25:44 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1581"}]
+2021-10-11 14:25:44 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"58","status":"NG:"}]
+2021-10-11 14:26:24 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1622"}]
+2021-10-11 14:26:24 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"99","status":"NG:"}]
+2021-10-11 14:28:19 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"22"}]
+2021-10-11 14:28:19 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"55","status":"NG:"}]
+2021-10-11 14:28:36 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"40"}]
+2021-10-11 14:28:37 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"72","status":"NG:"}]
+2021-10-11 14:42:15 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"858"}]
+2021-10-11 14:42:15 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"43","status":"NG:"}]
+2021-10-11 14:42:29 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"873"}]
+2021-10-11 14:42:29 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"57","status":"NG:"}]
+2021-10-11 14:44:00 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"963"}]
+2021-10-11 14:44:00 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"148","status":"NG:"}]
+2021-10-11 14:46:24 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1107"}]
+2021-10-11 14:46:24 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"292","status":"NG:"}]
+2021-10-11 14:46:41 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1124"}]
+2021-10-11 14:46:41 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"309","status":"NG:"}]
+2021-10-11 15:20:17 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"3141"}]
+2021-10-11 15:20:17 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"2325","status":"NG:"}]
+2021-10-11 15:51:30 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1493"}]
+2021-10-11 15:51:31 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"1316"}]
+2021-10-11 15:51:31 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"1057"}]
+2021-10-11 15:51:31 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"1655","status":"NG:"}]
+2021-10-11 15:51:31 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"5014"}]
+2021-10-11 15:51:35 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"5019"}]
+2021-10-11 15:51:35 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1498"}]
+2021-10-11 15:51:35 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"1062"}]
+2021-10-11 15:51:35 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"1321"}]
+2021-10-11 15:51:36 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"1660","status":"NG:"}]
+2021-10-11 16:44:40 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"4505"}]
+2021-10-11 16:44:40 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"4246"}]
+2021-10-11 16:44:40 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"81","status":"正在老化..."}]
+2021-10-11 16:44:40 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"4844","status":"NG:"}]
+2021-10-11 16:44:40 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"222","status":"正在老化..."}]
+2021-10-11 16:45:00 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"4526"}]
+2021-10-11 16:45:00 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"4267"}]
+2021-10-11 16:45:01 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"102","status":"正在老化..."}]
+2021-10-11 16:45:01 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"4865","status":"NG:"}]
+2021-10-11 16:45:01 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"242","status":"正在老化..."}]
+2021-10-11 16:45:39 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"4564"}]
+2021-10-11 16:45:39 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"140","status":"正在老化..."}]
+2021-10-11 16:45:39 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"280","status":"正在老化..."}]
+2021-10-11 16:45:39 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"4903","status":"NG:"}]
+2021-10-11 16:45:39 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"4305"}]
+2021-10-11 16:46:43 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"4369"}]
+2021-10-11 16:46:43 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"4628"}]
+2021-10-11 16:46:43 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"204","status":"正在老化..."}]
+2021-10-11 16:46:43 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"344","status":"正在老化..."}]
+2021-10-11 16:46:43 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"4967","status":"NG:"}]
+2021-10-11 16:48:08 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"4454"}]
+2021-10-11 16:48:08 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"4713"}]
+2021-10-11 16:48:08 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"289","status":"正在老化..."}]
+2021-10-11 16:48:08 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"5052","status":"NG:"}]
+2021-10-11 16:48:08 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"429","status":"正在老化..."}]
+2021-10-11 16:49:04 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"4769"}]
+2021-10-11 16:49:04 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"4510"}]
+2021-10-11 16:49:04 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"345","status":"正在老化..."}]
+2021-10-11 16:49:04 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"485","status":"正在老化..."}]
+2021-10-11 16:49:04 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"5108","status":"NG:"}]
+2021-10-11 16:58:46 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"5093"}]
+2021-10-11 16:58:46 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"5352"}]
+2021-10-11 16:58:47 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1068","status":"NG:chain 2 : spi_error"}]
+2021-10-11 16:58:47 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"5691","status":"NG:"}]
+2021-10-11 16:58:47 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"928","status":"正在老化..."}]
+2021-10-11 16:59:10 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"5117"}]
+2021-10-11 16:59:10 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"5376"}]
+2021-10-11 16:59:10 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1092","status":"NG:chain 2 : spi_error"}]
+2021-10-11 16:59:10 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"5714","status":"NG:"}]
+2021-10-11 16:59:10 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"952","status":"正在老化..."}]
+2021-10-11 17:01:38 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"5265"}]
+2021-10-11 17:01:38 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"5523"}]
+2021-10-11 17:01:38 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1240","status":"NG:chain 2 : spi_error"}]
+2021-10-11 17:01:38 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1099","status":"正在老化..."}]
+2021-10-11 17:01:38 [INFO]-[service.MinerScanCall] ip [192.168.10.44] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"FA:20:2D:2A:B2:CE","uptime":"5862","status":"NG:"}]
+2021-10-11 17:01:51 [INFO]-[service.MinerScanCall] ip [192.168.10.53] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:B0:CE:9E:F1:00","uptime":"5277"}]
+2021-10-11 17:01:51 [INFO]-[service.MinerScanCall] ip [192.168.10.52] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"B6:6A:56:69:4F:BF","uptime":"5536"}]
+2021-10-11 17:01:51 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"1112","status":"正在老化..."}]
+2021-10-11 17:01:51 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1252","status":"NG:chain 2 : spi_error"}]
+2021-10-11 17:22:51 [INFO]-[service.MinerScanCall] ip [192.168.10.58] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"22:F8:11:D8:79:9F","uptime":"661"}]
+2021-10-11 17:22:51 [INFO]-[service.MinerScanCall] ip [192.168.10.56] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"12:18:8B:3A:46:BA","uptime":"796"}]
+2021-10-11 17:22:51 [INFO]-[service.MinerScanCall] ip [192.168.10.57] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"D6:8C:03:C2:34:70","uptime":"723"}]
+2021-10-11 17:22:51 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"2513","status":"NG:chain 2 : spi_error"}]
+2021-10-11 17:22:51 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2372","status":"正在老化..."}]
+2021-10-11 17:23:06 [INFO]-[service.MinerScanCall] ip [192.168.10.58] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"22:F8:11:D8:79:9F","uptime":"676"}]
+2021-10-11 17:23:06 [INFO]-[service.MinerScanCall] ip [192.168.10.56] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"12:18:8B:3A:46:BA","uptime":"811"}]
+2021-10-11 17:23:06 [INFO]-[service.MinerScanCall] ip [192.168.10.57] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"D6:8C:03:C2:34:70","uptime":"737"}]
+2021-10-11 17:23:06 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"2527","status":"NG:chain 2 : spi_error"}]
+2021-10-11 17:23:06 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2387","status":"正在老化..."}]
+2021-10-11 17:26:54 [INFO]-[service.MinerScanCall] ip [192.168.10.56] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"12:18:8B:3A:46:BA","uptime":"1039"}]
+2021-10-11 17:26:54 [INFO]-[service.MinerScanCall] ip [192.168.10.57] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"D6:8C:03:C2:34:70","uptime":"965"}]
+2021-10-11 17:26:54 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2615","status":"正在老化..."}]
+2021-10-11 17:26:54 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"2755","status":"NG:chain 2 : spi_error"}]
+2021-10-11 17:27:07 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"2769","status":"NG:chain 2 : spi_error"}]
+2021-10-11 17:27:07 [INFO]-[service.MinerScanCall] ip [192.168.10.57] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"D6:8C:03:C2:34:70","uptime":"979"}]
+2021-10-11 17:27:07 [INFO]-[service.MinerScanCall] ip [192.168.10.56] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"12:18:8B:3A:46:BA","uptime":"1053"}]
+2021-10-11 17:27:07 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2628","status":"正在老化..."}]
+2021-10-11 17:27:07 [INFO]-[service.MinerScanCall] ip [192.168.10.58] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"22:F8:11:D8:79:9F","uptime":"23","status":"正在老化..."}]
+2021-10-11 17:31:15 [INFO]-[service.MinerScanCall] ip [192.168.10.57] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"D6:8C:03:C2:34:70","uptime":"1226"}]
+2021-10-11 17:31:15 [INFO]-[service.MinerScanCall] ip [192.168.10.58] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"22:F8:11:D8:79:9F","uptime":"271","status":"NG:chain 1 : bringup_fail"}]
+2021-10-11 17:31:15 [INFO]-[service.MinerScanCall] ip [192.168.10.56] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"12:18:8B:3A:46:BA","uptime":"43","status":"正在老化..."}]
+2021-10-11 17:31:15 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"2876","status":"正在老化..."}]
+2021-10-11 17:31:15 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"3016","status":"NG:chain 2 : spi_error"}]
+2021-10-11 18:33:24 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"6605","status":"正在老化..."}]
+2021-10-11 18:34:27 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"84","status":"NG:"}]
+2021-10-11 18:34:27 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"6668","status":"正在老化..."}]
+2021-10-11 18:38:59 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"6940","status":"正在老化..."}]
+2021-10-11 18:42:42 [INFO]-[service.MinerScanCall] ip [192.168.10.59] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"3A:C2:EC:B6:EA:A6","uptime":"183"}]
+2021-10-11 18:42:43 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"7164","status":"正在老化..."}]
+2021-10-11 18:42:43 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"181"}]
+2021-10-11 18:42:43 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"245"}]
+2021-10-11 18:42:43 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"72:12:81:31:FC:A3","uptime":"179"}]
+2021-10-11 18:47:40 [INFO]-[service.MinerScanCall] ip [192.168.10.59] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"3A:C2:EC:B6:EA:A6","uptime":"480"}]
+2021-10-11 18:47:40 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"542"}]
+2021-10-11 18:47:40 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"7461","status":"正在老化..."}]
+2021-10-11 18:47:40 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"479"}]
+2021-10-11 18:47:41 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"72:12:81:31:FC:A3","uptime":"477"}]
+2021-10-11 18:51:51 [INFO]-[service.MinerScanCall] ip [192.168.10.59] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"3A:C2:EC:B6:EA:A6","uptime":"732"}]
+2021-10-11 18:51:51 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"794"}]
+2021-10-11 18:51:52 [INFO]-[service.MinerScanCall] ip [192.168.10.43] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"EE:04:FD:CF:3D:89","uptime":"7713","status":"正在老化..."}]
+2021-10-11 18:51:52 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"730"}]
+2021-10-11 18:51:52 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"72:12:81:31:FC:A3","uptime":"728"}]
+2021-10-11 20:53:56 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"1514"}]
+2021-10-11 20:53:56 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"408"}]
+2021-10-11 20:53:56 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"1600"}]
+2021-10-11 20:53:56 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"1399"}]
+2021-10-11 20:53:56 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"196"}]
+2021-10-11 20:53:56 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"301"}]
+2021-10-11 21:12:11 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"62","status":"NG:"}]
+2021-10-11 21:12:12 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"2495"}]
+2021-10-11 21:12:12 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"2696"}]
+2021-10-11 21:12:12 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"1292"}]
+2021-10-11 21:12:12 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"1397"}]
+2021-10-11 21:12:39 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"90","status":"NG:"}]
+2021-10-11 21:12:40 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"1319"}]
+2021-10-11 21:12:40 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"1425"}]
+2021-10-11 21:12:40 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"2522"}]
+2021-10-11 21:12:40 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"2723"}]
+2021-10-11 21:13:49 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"160","status":"NG:"}]
+2021-10-11 21:13:49 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"2793"}]
+2021-10-11 21:13:49 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"2592"}]
+2021-10-11 21:13:49 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"1494"}]
+2021-10-11 21:13:50 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"1389"}]
+2021-10-11 21:16:07 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"299","status":"NG:"}]
+2021-10-11 21:16:08 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"2931"}]
+2021-10-11 21:16:08 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"2731"}]
+2021-10-11 21:16:08 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"1633"}]
+2021-10-11 21:16:08 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"1528"}]
+2021-10-11 21:19:59 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"530","status":"NG:"}]
+2021-10-11 21:19:59 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"3163"}]
+2021-10-11 21:19:59 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"1759"}]
+2021-10-11 21:19:59 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"1864"}]
+2021-10-11 21:20:00 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"2962"}]
+2021-10-11 21:23:44 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"755","status":"NG:"}]
+2021-10-11 21:23:44 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"2089"}]
+2021-10-11 21:23:44 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"3187"}]
+2021-10-11 21:23:45 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"24"}]
+2021-10-11 21:24:14 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"785","status":"NG:"}]
+2021-10-11 21:24:14 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"53"}]
+2021-10-11 21:24:15 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"53"}]
+2021-10-11 21:24:15 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"3217"}]
+2021-10-11 21:24:15 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"2120"}]
+2021-10-11 21:37:39 [INFO]-[service.MinerScanCall] ip [192.168.10.59] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"3A:C2:EC:B6:EA:A6","uptime":"231"}]
+2021-10-11 21:37:39 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"293","status":"NG:"}]
+2021-10-11 21:37:40 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"858"}]
+2021-10-11 21:37:40 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"4022"}]
+2021-10-11 21:37:40 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"2925"}]
+2021-10-11 21:37:40 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"268"}]
+2021-10-11 21:42:19 [INFO]-[service.MinerScanCall] ip [192.168.10.59] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"3A:C2:EC:B6:EA:A6","uptime":"510"}]
+2021-10-11 21:42:19 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"1138"}]
+2021-10-11 21:42:20 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"4302"}]
+2021-10-11 21:42:20 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"3205"}]
+2021-10-11 21:42:20 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"548"}]
+2021-10-11 21:42:20 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"573","status":"NG:"}]
+2021-10-11 21:42:32 [INFO]-[service.MinerScanCall] ip [192.168.10.59] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"3A:C2:EC:B6:EA:A6","uptime":"523"}]
+2021-10-11 21:42:32 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211010:2224","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"585","status":"NG:"}]
+2021-10-11 21:42:32 [INFO]-[service.MinerScanCall] ip [192.168.10.61] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"72:12:81:31:FC:A3","uptime":"1151"}]
+2021-10-11 21:42:32 [INFO]-[service.MinerScanCall] ip [192.168.10.62] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:03:7F:E1:3E:6A","uptime":"4314"}]
+2021-10-11 21:42:32 [INFO]-[service.MinerScanCall] ip [192.168.10.63] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"E2:B5:09:38:AD:4F","uptime":"3217"}]
+2021-10-11 21:42:32 [INFO]-[service.MinerScanCall] ip [192.168.10.64] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"CE:0D:D7:C9:9F:0F","uptime":"560"}]
+2021-10-11 22:27:36 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-11 22:27:37 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-11 22:27:41 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"150"}]
+2021-10-11 22:27:41 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"187"}]
+2021-10-11 22:30:59 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"348"}]
+2021-10-11 22:30:59 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"384"}]
+2021-10-11 22:31:29 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"378"}]
+2021-10-11 22:31:29 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"414"}]
+2021-10-11 22:42:42 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-11 22:42:42 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-11 22:42:46 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"1056"}]
+2021-10-11 22:42:47 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"1092"}]
+2021-10-11 22:44:46 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-11 22:44:46 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-11 22:44:50 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"1179"}]
+2021-10-11 22:44:51 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"1216"}]
+2021-10-11 22:47:09 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-11 22:47:09 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-11 22:47:14 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"1323"}]
+2021-10-11 22:47:14 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"1360"}]
+2021-10-11 22:48:28 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"1398"}]
+2021-10-11 22:48:29 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"1434"}]
+2021-10-11 22:49:55 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-11 22:49:55 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-11 22:49:59 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"1488"}]
+2021-10-11 22:49:59 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"1525"}]
+2021-10-12 09:42:31 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 09:42:31 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 09:42:39 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"40648"}]
+2021-10-12 09:42:39 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"40684"}]
+2021-10-12 09:44:30 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 09:44:30 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 09:44:35 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"40764"}]
+2021-10-12 09:44:35 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"40800"}]
+2021-10-12 09:46:35 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 09:46:35 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 09:46:40 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"40889"}]
+2021-10-12 09:46:40 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"40926"}]
+2021-10-12 09:49:01 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 09:49:01 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 09:49:06 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"41035"}]
+2021-10-12 09:49:06 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"41072"}]
+2021-10-12 09:50:25 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 09:50:25 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 09:50:29 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"41118"}]
+2021-10-12 09:50:29 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"41155"}]
+2021-10-12 09:52:09 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 09:52:10 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 09:52:14 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"41223"}]
+2021-10-12 09:52:14 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"41259"}]
+2021-10-12 09:54:24 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 09:54:24 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 09:54:33 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"41362"}]
+2021-10-12 09:54:33 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"41398"}]
+2021-10-12 09:59:53 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 09:59:53 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 10:17:12 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"42722"}]
+2021-10-12 10:17:13 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"42758"}]
+2021-10-12 10:24:24 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 10:24:24 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 10:24:28 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"43157"}]
+2021-10-12 10:24:28 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"43194"}]
+2021-10-12 10:26:09 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"43258"}]
+2021-10-12 10:26:09 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"43294"}]
+2021-10-12 10:27:21 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 10:27:21 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 10:27:25 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"43335"}]
+2021-10-12 10:27:26 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"43371"}]
+2021-10-12 10:30:45 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 10:30:45 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 10:30:50 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"43539"}]
+2021-10-12 10:30:50 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"43575"}]
+2021-10-12 10:32:20 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 10:32:20 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 10:49:35 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 10:49:35 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 10:51:10 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 10:51:11 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 10:51:17 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"44766"}]
+2021-10-12 10:51:17 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"44802"}]
+2021-10-12 10:52:52 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 10:52:52 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 10:52:56 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"44866"}]
+2021-10-12 10:52:56 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"44902"}]
+2021-10-12 10:58:40 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 10:58:41 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 10:58:49 [INFO]-[common.LangConfig] UI-lang is：[en_US]
+2021-10-12 10:58:53 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 11:01:08 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"45357"}]
+2021-10-12 11:01:08 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"45393"}]
+2021-10-12 11:02:52 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 11:02:52 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 11:02:57 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"45466"}]
+2021-10-12 11:02:57 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"45502"}]
+2021-10-12 11:21:48 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-12 11:21:49 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 11:21:49 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 11:21:53 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"46602"}]
+2021-10-12 11:21:53 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"46639"}]
+2021-10-12 12:04:46 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-12 12:04:47 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 12:04:47 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 12:04:56 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"49186"}]
+2021-10-12 12:04:56 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"49222"}]
+2021-10-12 14:15:42 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 14:15:42 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 14:15:48 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"57037"}]
+2021-10-12 14:15:48 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"57073"}]
+2021-10-12 14:16:23 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-12 14:16:23 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-12 14:16:23 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-12 14:16:29 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"57079"}]
+2021-10-12 14:16:30 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"57115"}]
+2021-10-12 14:17:38 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"57147"}]
+2021-10-12 14:17:38 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"57183"}]
+2021-10-12 14:38:43 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"58412"}]
+2021-10-12 14:38:43 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"58448"}]
+2021-10-12 15:05:33 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"82:59:C2:50:D6:E0","uptime":"60022"}]
+2021-10-12 15:05:33 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"60059"}]
+2021-10-13 00:45:49 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 00:45:49 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-13 22:35:19 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 22:35:19 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-13 22:43:09 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-13 22:43:10 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 22:43:10 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-13 22:44:36 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-13 22:44:36 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 22:44:36 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-13 22:48:59 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-13 22:49:00 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 22:49:00 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-13 22:52:06 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-13 22:52:07 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 22:52:07 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-13 22:53:42 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-13 22:53:42 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 22:53:42 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-13 23:06:40 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-13 23:06:40 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 23:06:40 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-13 23:20:54 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-13 23:20:55 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 23:20:55 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-13 23:30:42 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-13 23:30:43 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-13 23:30:43 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 01:14:07 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 01:14:07 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 01:19:10 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 01:19:11 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 01:21:28 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 01:21:29 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 01:21:29 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 01:50:29 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 01:50:30 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 01:50:30 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 02:07:38 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"3815","status":"NG:chain 1 : spi_error"}]
+2021-10-14 02:07:38 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"model":"F9","firmware_version":" 20210916:0138","network_type":"static","mac":"A2:0E:0D:AA:1D:2F","uptime":"186184"}]
+2021-10-14 09:14:27 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 09:14:27 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 09:14:27 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 09:14:31 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"908","status":"正在老化..."}]
+2021-10-14 09:14:32 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"515","status":"NG:"}]
+2021-10-14 09:14:40 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"917","status":"正在老化..."}]
+2021-10-14 09:14:40 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"523","status":"NG:"}]
+2021-10-14 09:17:27 [INFO]-[common.LangConfig] UI-lang is：[en_US]
+2021-10-14 09:17:30 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 09:19:11 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1188","status":"正在老化..."}]
+2021-10-14 09:19:11 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"794","status":"NG:"}]
+2021-10-14 09:22:16 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 09:22:16 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 09:22:17 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 09:22:22 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1379","status":"正在老化..."}]
+2021-10-14 09:22:23 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"986","status":"NG:"}]
+2021-10-14 09:25:42 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1579","status":"正在老化..."}]
+2021-10-14 09:25:42 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"1185","status":"NG:"}]
+2021-10-14 09:26:37 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 09:26:38 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 09:26:42 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1639","status":"正在老化..."}]
+2021-10-14 09:26:42 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"1245","status":"NG:"}]
+2021-10-14 09:26:55 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"1652","status":"正在老化..."}]
+2021-10-14 09:26:55 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"1258","status":"NG:"}]
+2021-10-14 09:33:17 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 09:33:18 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 09:33:18 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 09:33:22 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"2039","status":"正在老化..."}]
+2021-10-14 09:33:22 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"1645","status":"NG:"}]
+2021-10-14 09:34:36 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 09:34:36 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 09:34:37 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 09:34:40 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"2117","status":"正在老化..."}]
+2021-10-14 09:34:40 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"1723","status":"NG:"}]
+2021-10-14 09:36:43 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 09:36:44 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 09:36:44 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 09:36:47 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"2245","status":"正在老化..."}]
+2021-10-14 09:36:48 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"1851","status":"NG:"}]
+2021-10-14 09:39:49 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 09:39:50 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 09:39:50 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 09:39:54 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"2431","status":"正在老化..."}]
+2021-10-14 09:39:54 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"2037","status":"NG:"}]
+2021-10-14 09:41:52 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 09:41:53 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 09:41:53 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 09:41:58 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"2161","status":"NG:"}]
+2021-10-14 09:41:58 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"2555","status":"正在老化..."}]
+2021-10-14 11:49:33 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 11:49:33 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 11:49:34 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 11:49:40 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"9823","status":"NG:"}]
+2021-10-14 11:49:40 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"10217","status":"NG:chain 0 : overheating"}]
+2021-10-14 11:51:13 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 11:51:14 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 11:51:14 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 11:51:19 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"9922","status":"NG:"}]
+2021-10-14 11:51:19 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"10316","status":"NG:chain 0 : overheating"}]
+2021-10-14 19:55:52 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 19:55:52 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 19:58:43 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 19:58:43 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 19:58:43 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 19:58:59 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"39182","status":"NG:"}]
+2021-10-14 19:58:59 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211013:0855","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"39576","status":"NG:chain 0 : overheating"}]
+2021-10-14 20:21:42 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 20:21:42 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 20:21:42 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 20:21:53 [INFO]-[service.MinerScanCall] ip [192.168.10.69] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"DA:E4:B8:77:7B:82","uptime":"757"}]
+2021-10-14 20:21:53 [INFO]-[service.MinerScanCall] ip [192.168.10.70] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:8B:B9:7F:33:D9","uptime":"737"}]
+2021-10-14 20:21:53 [INFO]-[service.MinerScanCall] ip [192.168.10.71] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"A2:C0:5C:03:D9:60","uptime":"728"}]
+2021-10-14 20:22:36 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-14 20:22:37 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-14 20:22:37 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-14 20:22:43 [INFO]-[service.MinerScanCall] ip [192.168.10.70] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:8B:B9:7F:33:D9","uptime":"787"}]
+2021-10-14 20:22:43 [INFO]-[service.MinerScanCall] ip [192.168.10.69] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"DA:E4:B8:77:7B:82","uptime":"807"}]
+2021-10-14 20:22:43 [INFO]-[service.MinerScanCall] ip [192.168.10.71] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"A2:C0:5C:03:D9:60","uptime":"778"}]
+2021-10-14 20:33:37 [INFO]-[service.MinerScanCall] ip [192.168.10.70] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:8B:B9:7F:33:D9","uptime":"1441"}]
+2021-10-14 20:33:37 [INFO]-[service.MinerScanCall] ip [192.168.10.69] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"DA:E4:B8:77:7B:82","uptime":"1461"}]
+2021-10-14 20:33:37 [INFO]-[service.MinerScanCall] ip [192.168.10.71] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"A2:C0:5C:03:D9:60","uptime":"1432"}]
+2021-10-14 20:48:26 [INFO]-[service.MinerScanCall] ip [192.168.10.70] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:8B:B9:7F:33:D9","uptime":"2330"}]
+2021-10-14 20:48:26 [INFO]-[service.MinerScanCall] ip [192.168.10.69] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"DA:E4:B8:77:7B:82","uptime":"2349"}]
+2021-10-14 20:48:26 [INFO]-[service.MinerScanCall] ip [192.168.10.71] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"A2:C0:5C:03:D9:60","uptime":"2321"}]
+2021-10-14 20:58:23 [INFO]-[service.MinerScanCall] ip [192.168.10.70] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"96:8B:B9:7F:33:D9","uptime":"2927"}]
+2021-10-14 20:58:23 [INFO]-[service.MinerScanCall] ip [192.168.10.71] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"A2:C0:5C:03:D9:60","uptime":"2918"}]
+2021-10-14 20:58:23 [INFO]-[service.MinerScanCall] ip [192.168.10.69] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"DA:E4:B8:77:7B:82","uptime":"2946"}]
+2021-10-14 22:28:23 [INFO]-[service.MinerScanCall] ip [192.168.10.72] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"1E:94:FE:33:1C:3C","uptime":"4209"}]
+2021-10-14 22:28:23 [INFO]-[service.MinerScanCall] ip [192.168.10.73] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"EE:D6:E5:F9:CF:1C","uptime":"4209"}]
+2021-10-14 22:28:23 [INFO]-[service.MinerScanCall] ip [192.168.10.74] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"1E:05:BA:A5:EA:1C","uptime":"4207"}]
+2021-10-15 10:28:54 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 10:28:55 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 10:28:55 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 10:29:01 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"20930","status":"NG:chain 1 : spi_error"}]
+2021-10-15 10:29:01 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"20314","status":"OK"}]
+2021-10-15 10:37:27 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 10:37:28 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 10:37:28 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 10:37:33 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"20827","status":"OK"}]
+2021-10-15 10:37:33 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"21443","status":"NG:chain 1 : spi_error"}]
+2021-10-15 10:38:04 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 10:38:04 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 10:38:05 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 10:39:54 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 10:39:54 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 10:39:55 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 10:40:21 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"21610","status":"NG:chain 1 : spi_error"}]
+2021-10-15 10:40:21 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"20994","status":"OK"}]
+2021-10-15 10:50:33 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 10:50:34 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 10:50:34 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 10:50:39 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"21612","status":"OK"}]
+2021-10-15 10:50:39 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"22228","status":"NG:chain 1 : spi_error"}]
+2021-10-15 10:51:05 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"21639","status":"OK"}]
+2021-10-15 10:51:05 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"22255","status":"NG:chain 1 : spi_error"}]
+2021-10-15 19:56:44 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 19:56:44 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 19:56:50 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"55000","status":"NG:chain 1 : spi_error"}]
+2021-10-15 19:56:50 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"54384","status":"OK"}]
+2021-10-15 19:57:56 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 19:57:57 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 19:58:01 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"54455","status":"OK"}]
+2021-10-15 19:58:01 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"55071","status":"NG:chain 1 : spi_error"}]
+2021-10-15 20:00:07 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 20:00:07 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 20:00:08 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 20:00:13 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"55202","status":"NG:chain 1 : spi_error"}]
+2021-10-15 20:00:13 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"54586","status":"OK"}]
+2021-10-15 21:05:48 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 21:05:49 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 21:05:49 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 21:05:54 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"58528","status":"OK"}]
+2021-10-15 21:05:54 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"59144","status":"NG:chain 1 : spi_error"}]
+2021-10-15 21:07:40 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 21:07:40 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 21:07:40 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 21:07:46 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"58640","status":"OK"}]
+2021-10-15 21:07:46 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"59256","status":"NG:chain 1 : spi_error"}]
+2021-10-15 21:10:35 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 21:10:35 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 21:10:35 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-15 21:10:40 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"58814","status":"OK"}]
+2021-10-15 21:10:40 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"59430","status":"NG:chain 1 : spi_error"}]
+2021-10-15 21:11:55 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-15 21:11:56 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-15 21:11:56 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-16 10:33:27 [INFO]-[server.IPReportServer] UDP-IpReport-server is running！
+2021-10-16 10:33:28 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-16 10:33:28 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-16 10:33:33 [INFO]-[service.MinerScanCall] ip [192.168.10.51] connect message:[{"bin":"BIN10","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"82:59:C2:50:D6:E0","uptime":"38433","status":"OK"}]
+2021-10-16 10:33:33 [INFO]-[service.MinerScanCall] ip [192.168.10.60] connect message:[{"bin":"BIN20","model":"F9","firmware_version":" 20211015:0338","network_type":"dhcp","mac":"A2:0E:0D:AA:1D:2F","uptime":"38456","status":"OK"}]
+2021-10-19 10:35:39 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 10:35:39 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 10:35:46 [INFO]-[service.MinerScanCall] ip [192.168.10.47] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"0E:BF:F7:C0:B0:B4","uptime":"5258","status":"OK"}]
+2021-10-19 10:35:46 [INFO]-[service.MinerScanCall] ip [192.168.10.48] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"22:2D:1C:BF:A1:16","uptime":"7477","status":"OK"}]
+2021-10-19 21:42:36 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 21:42:37 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 21:44:31 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 21:44:31 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 21:47:04 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 21:47:04 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 21:49:17 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 21:49:17 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 21:49:20 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"6510"}]
+2021-10-19 21:49:20 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"C6:54:44:47:48:E0","uptime":"7068"}]
+2021-10-19 21:49:20 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"CA:63:B8:8B:E1:E4","uptime":"6952"}]
+2021-10-19 21:55:10 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 21:55:10 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 21:55:16 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"6865"}]
+2021-10-19 21:55:16 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"CA:63:B8:8B:E1:E4","uptime":"7307"}]
+2021-10-19 21:55:16 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"C6:54:44:47:48:E0","uptime":"7423"}]
+2021-10-19 21:57:27 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 21:57:27 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 21:57:29 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"CA:63:B8:8B:E1:E4","uptime":"7440"}]
+2021-10-19 21:57:29 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"6999"}]
+2021-10-19 21:57:29 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"C6:54:44:47:48:E0","uptime":"7557"}]
+2021-10-19 22:02:20 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:02:20 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:02:22 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"C6:54:44:47:48:E0","uptime":"7850"}]
+2021-10-19 22:02:22 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"7292"}]
+2021-10-19 22:02:22 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"CA:63:B8:8B:E1:E4","uptime":"7733"}]
+2021-10-19 22:07:05 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:07:05 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:07:07 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"7577"}]
+2021-10-19 22:07:07 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"CA:63:B8:8B:E1:E4","uptime":"8019"}]
+2021-10-19 22:07:07 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"C6:54:44:47:48:E0","uptime":"8135"}]
+2021-10-19 22:08:51 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:08:51 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:09:09 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:09:09 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:14:02 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:14:02 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:14:04 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"7994"}]
+2021-10-19 22:14:04 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"CA:63:B8:8B:E1:E4","uptime":"8436"}]
+2021-10-19 22:14:04 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"C6:54:44:47:48:E0","uptime":"8552"}]
+2021-10-19 22:25:51 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:25:51 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:25:53 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"96"}]
+2021-10-19 22:25:53 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"C6:54:44:47:48:E0","uptime":"9261"}]
+2021-10-19 22:25:53 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"model":"Unknown","firmware_version":" 20210922:2152","network_type":"dhcp","mac":"CA:63:B8:8B:E1:E4","uptime":"9145"}]
+2021-10-19 22:45:15 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:45:15 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:45:18 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"1261"}]
+2021-10-19 22:45:18 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"C6:54:44:47:48:E0","uptime":"1069","status":"OK"}]
+2021-10-19 22:45:18 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"1079","status":"OK"}]
+2021-10-19 22:50:41 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:50:41 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:50:43 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"1586"}]
+2021-10-19 22:50:43 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"C6:54:44:47:48:E0","uptime":"1394","status":"OK"}]
+2021-10-19 22:50:43 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"1405","status":"OK"}]
+2021-10-19 22:55:45 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:55:46 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:55:54 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"1897"}]
+2021-10-19 22:55:54 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"C6:54:44:47:48:E0","uptime":"1705","status":"OK"}]
+2021-10-19 22:55:54 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"1716","status":"OK"}]
+2021-10-19 22:57:58 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 22:57:58 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 22:58:02 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"2025"}]
+2021-10-19 22:58:02 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"1844","status":"OK"}]
+2021-10-19 22:58:02 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"C6:54:44:47:48:E0","uptime":"1833","status":"OK"}]
+2021-10-19 23:00:27 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 23:00:27 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 23:00:30 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"2173"}]
+2021-10-19 23:00:30 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"C6:54:44:47:48:E0","uptime":"1981","status":"OK"}]
+2021-10-19 23:00:30 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"1991","status":"OK"}]
+2021-10-19 23:06:29 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 23:06:29 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 23:06:31 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"2534"}]
+2021-10-19 23:06:31 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"C6:54:44:47:48:E0","uptime":"2342","status":"OK"}]
+2021-10-19 23:06:31 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"2353","status":"OK"}]
+2021-10-19 23:08:56 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 23:08:56 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 23:08:59 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"2682"}]
+2021-10-19 23:08:59 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"C6:54:44:47:48:E0","uptime":"2490","status":"OK"}]
+2021-10-19 23:08:59 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"2501","status":"OK"}]
+2021-10-19 23:16:46 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-19 23:16:46 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-19 23:16:49 [INFO]-[service.MinerScanCall] ip [192.168.10.3] connect message:[{"model":"Unknown","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"BE:58:3B:AD:77:B3","uptime":"3152"}]
+2021-10-19 23:16:49 [INFO]-[service.MinerScanCall] ip [192.168.10.6] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"C6:54:44:47:48:E0","uptime":"2960","status":"OK"}]
+2021-10-19 23:16:49 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"2970","status":"OK"}]
+2021-10-20 01:01:57 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-20 01:01:57 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-20 01:02:00 [INFO]-[service.MinerScanCall] ip [192.168.10.17] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"22:2D:1C:BF:A1:16","uptime":"5360","status":"OK"}]
+2021-10-20 01:02:00 [INFO]-[service.MinerScanCall] ip [192.168.10.20] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"2E:90:AF:50:B0:B6","uptime":"3424","status":"OK"}]
+2021-10-20 01:02:00 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"9282","status":"OK"}]
+2021-10-20 01:02:59 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-20 01:02:59 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-20 01:03:02 [INFO]-[service.MinerScanCall] ip [192.168.10.20] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"2E:90:AF:50:B0:B6","uptime":"3486","status":"OK"}]
+2021-10-20 01:03:02 [INFO]-[service.MinerScanCall] ip [192.168.10.17] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"22:2D:1C:BF:A1:16","uptime":"5422","status":"OK"}]
+2021-10-20 01:03:02 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"9343","status":"OK"}]
+2021-10-21 17:31:59 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-21 17:32:00 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-21 17:32:04 [INFO]-[service.MinerScanCall] ip [192.168.10.20] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"2E:90:AF:50:B0:B6","uptime":"143892","status":"OK"}]
+2021-10-21 17:32:04 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"116941","status":"OK"}]
+2021-10-21 17:32:04 [INFO]-[service.MinerScanCall] ip [192.168.10.17] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"22:2D:1C:BF:A1:16","uptime":"143892","status":"OK"}]
+2021-10-21 17:32:36 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-10-21 17:32:37 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-10-21 17:32:40 [INFO]-[service.MinerScanCall] ip [192.168.10.4] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"static","mac":"CA:63:B8:8B:E1:E4","uptime":"116978","status":"OK"}]
+2021-10-21 17:32:40 [INFO]-[service.MinerScanCall] ip [192.168.10.20] connect message:[{"bin":"BIN40","model":"F9","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"2E:90:AF:50:B0:B6","uptime":"143928","status":"OK"}]
+2021-10-21 17:32:40 [INFO]-[service.MinerScanCall] ip [192.168.10.17] connect message:[{"bin":"BIN30","model":"F9","firmware_version":" 20211019:0113","network_type":"dhcp","mac":"22:2D:1C:BF:A1:16","uptime":"143928","status":"OK"}]
+2021-11-10 00:35:22 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-10 00:35:23 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-10 00:42:43 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-10 00:42:43 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-10 00:43:14 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-10 00:43:14 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-10 00:59:25 [INFO]-[service.MinerScanCall] ip [192.168.10.77] connect message:[{"bin":"BIN13","model":"Unknown","firmware_version":" 20211022:0206","network_type":"dhcp","mac":"A2:70:A2:2F:0B:34","uptime":"1331195","status":"OK"}]
+2021-11-10 01:04:52 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-10 01:04:52 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-10 01:06:13 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-10 01:06:13 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-10 01:08:36 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-10 01:08:36 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-10 01:10:35 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-10 01:10:36 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-21 19:31:42 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-21 19:31:43 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-21 19:31:51 [INFO]-[service.MinerScanCall] ip [192.168.10.85] connect message:[{"bin":"BIN13","model":"F9","firmware_version":" 20211120:2256","network_type":"dhcp","mac":"00:24:9A:D5:AF:06","uptime":"67956","status":"OK"}]
+2021-11-21 19:31:51 [INFO]-[service.MinerScanCall] ip [192.168.10.84] connect message:[{"bin":"BIN40- BIN40- BIN43","model":"F9","firmware_version":" 20211031:0917","network_type":"static","mac":"EA:FE:0D:9E:58:B9","uptime":"5761","status":"OK"}]
+2021-11-22 19:46:47 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-22 19:46:47 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-22 19:49:08 [INFO]-[common.LangConfig] UI-lang is：[zh_CN]
+2021-11-22 19:49:08 [INFO]-[app.MinerCheckApp] Miner-tool start!
+2021-11-22 19:49:28 [INFO]-[service.MinerScanCall] ip [192.168.10.85] connect message:[{"bin":"BIN13","model":"F9","firmware_version":" 20211120:2256","network_type":"dhcp","mac":"00:24:9A:D5:AF:06","uptime":"155413","status":"OK"}]
+2021-11-22 19:49:28 [INFO]-[service.MinerScanCall] ip [192.168.10.91] connect message:[{"bin":"BIN13","model":"Unknown","firmware_version":" 20211120:2256","network_type":"dhcp","mac":"00:24:9A:D5:AE:88","uptime":"83662","status":"OK"}]

@@ -25,7 +25,7 @@ public class MinerCheckStatusVO {
 	private String maxSpeed;// 6261,
 	private String minerType;// A1,
 	private String url;// sz.ss.btc.com;//1800,
-	private String upTime;// 55981,
+	private String uptime;// 55981,
 	private boolean hashRateResult;//
 	private boolean temperature2Result;//
 	private String name;// 货架C-1,
@@ -263,11 +263,11 @@ public class MinerCheckStatusVO {
 	public void setUrl(String url) {
 		this.url = url;
 	}
-	public String getUpTime() {
-		return upTime;
+	public String getUptime() {
+		return uptime;
 	}
-	public void setUpTime(String upTime) {
-		this.upTime = upTime;
+	public void setUptime(String uptime) {
+		this.uptime = uptime;
 	}
 	public boolean isHashRateResult() {
 		return hashRateResult;

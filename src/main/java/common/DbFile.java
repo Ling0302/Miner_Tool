@@ -79,7 +79,7 @@ public class DbFile {
 		
 		StringBuffer sb1 = new StringBuffer();
 	    sb1.append("INSERT INTO t_ips (ips_index,ips_name,ips_str) "
-	               + "VALUES (0,'局域网1','192.168.0.1-255' );\n");
+	               + "VALUES (0,'LAN1','192.168.0.1-255' );\n");
 	    String insert_sql1 = sb1.toString(); 
 	    
 	    StringBuffer sb2 = new StringBuffer();

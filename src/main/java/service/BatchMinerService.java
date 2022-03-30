@@ -84,6 +84,8 @@ public class BatchMinerService {
 	
 }
 
+
+
  //线程类
 class WorkThread extends Thread {
 	 // 线程名

@@ -34,9 +34,8 @@ public class FileService {
 	//选择文件
 	public static String selectFile(Shell shell,Label label) {
 		FileDialog fileDialog = new FileDialog(shell, SWT.OPEN);
-	    fileDialog.setFilterNames(new String[] { "Office Word Files ",
-	     "All Files (*.*)" });
-	    fileDialog.setFilterExtensions(new String[] { "*.doc;*.docx", "*.*" });
+	    fileDialog.setFilterNames(new String[] { "All Files (*.*)" });
+	    fileDialog.setFilterExtensions(new String[] { "*.tar;*.gz", "*.*" });
 	    fileDialog.setFilterPath("SystemDrive");
 	    fileDialog.setText("请选择固件file");
 	    String dir = fileDialog.open();

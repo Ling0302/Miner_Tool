@@ -13,7 +13,7 @@ public class AppSettingConfig {
 	
 	public static MinerParamVO initMinerF5() {
 		MinerParamVO vo = new MinerParamVO();
-		vo.setType("F5");
+		vo.setType("N/A");
 		vo.setUsername("admin");
 		vo.setPassword("123456");
 		vo.setPower("3000");
@@ -32,7 +32,7 @@ public class AppSettingConfig {
 	
 	public static MinerParamVO initMinerF5i(){
 		MinerParamVO vo = new MinerParamVO();
-		vo.setType("F5+");
+		vo.setType("N/A");
 		vo.setUsername("admin");
 		vo.setPassword("123456");
 		vo.setPower("3000");

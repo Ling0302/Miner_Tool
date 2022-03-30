@@ -172,8 +172,7 @@ public class TableColumnSorter {
        table.setSortColumn(column);
        table.setSortDirection((isAscend ? SWT.UP : SWT.DOWN));
        isAscend = !isAscend;
-      
-     
+
   }
  
  public static int getColumnIndex(Table table, TableColumn column) {

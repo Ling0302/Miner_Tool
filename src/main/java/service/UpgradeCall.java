@@ -38,13 +38,14 @@ public class UpgradeCall implements Callable<String>{
 	}
 	
 	public String upgrade(TableItem item) {
-		String filename = MinerCheckApp.filePath;
+		//String filename = MinerCheckApp.filePath;
 		//String filename = "G:\\workspace\\2021年F9脚本与程序\\10月10号扫码枪固件与升级包\\swupdate_40_20211010.tar.gz";
-		System.out.println("filename:" + filename);
+		String filename = "C:\\swupdate_40_20211122.tar.gz";
 		//String user = MinerCheckApp.lblNewLabel_20.getText();
 		//String pass = MinerCheckApp.lblNewLabel_21.getText();
 		String user = "root";
 		String pass = "F9Miner1234";
+		//String ip = item.getText(0);
 		String ip = item.getText(0);
 		System.out.println("ip:" + ip);
 		

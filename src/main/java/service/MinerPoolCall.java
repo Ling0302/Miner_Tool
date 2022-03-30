@@ -30,7 +30,7 @@ public class MinerPoolCall implements Callable<String>{
 	public String call() throws Exception {
 		String result = null;
 		try {
-			result = configPool(ip,poolVO);
+			result = configPoolV2(ip,poolVO);
 		}catch(Exception e){
 			logger.error("connect error!{}",e);
 			//e.printStackTrace();
@@ -42,8 +42,14 @@ public class MinerPoolCall implements Callable<String>{
 	}
 	
 	private String configPool(String ip,PoolSettingVO poolVO) {
-		String result = HttpRequestUtils.post(ip, "/index.php/app/settings", null);
+		String result = HttpRequestUtils.post(ip, "/index.php/app/api?command=save_pools", null);
 		return result;
+	}
+	
+	private String configPoolV2(String ip,PoolSettingVO poolVO) {
+		
+		
+		return "ok";
 	}
 
 }

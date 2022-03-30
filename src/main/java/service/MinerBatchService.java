@@ -23,9 +23,9 @@ public class MinerBatchService {
 		List <TableItem> selectItems = new ArrayList<TableItem> ();
 		for(TableItem item : items) {
 			if(item.getChecked()) {
-				ips.add(item.getText(0));
+				ips.add(item.getText(1));
 				selectItems.add(item);
-				item.setText(1, "矿池配置中...");
+				item.setText(3, "矿池配置中...");
 			}
 		}
 		Runnable runnable = new Runnable() {
@@ -51,9 +51,9 @@ public class MinerBatchService {
 							public void run() {
 								TableItem item = selectItems.get(num - 1);
 								if(!"".equals(result) && result != null) {
-									item.setText(1, "矿池配置成功!");
+									item.setText(3, "矿池配置成功!");
 								}else {
-									item.setText(1, "配置失败!");
+									item.setText(3, "配置失败!");
 								}
 								if(num == size) {
 									//完成
@@ -127,9 +127,9 @@ public class MinerBatchService {
 	public static void rebootMiner(Table table) {
 		Runnable runnable = new Runnable() {
 			@Override
-			public void run() {				
+			public void run() {		
 				ExecutorService service = Executors.newFixedThreadPool(30);
-				TableItem[] items = table.getSelection();	
+				TableItem[] items = table.getSelection();
 				final int size = items.length;
 				CountDownLatch countDownLatch = new CountDownLatch(size);
 				List<Future<String>> statusList =  new ArrayList<>();
@@ -147,7 +147,49 @@ public class MinerBatchService {
 							@Override
 							public void run() {
 								if(result != null) {
-									item.setText(1, "重启成功!");
+									item.setText(3, "重启成功!");
+								}																
+								if(countDownLatch.getCount() == 0) {
+									//完成
+									ButtonStatusService.enableButton();
+					        		table.setEnabled(true);
+								}
+							}
+						});
+					}catch(Exception e) {
+						e.printStackTrace();
+					}
+				}
+				}			
+		};
+		new Thread(runnable).start();
+	}
+	
+	//批量升级
+	public static void upgradeMiner(Table table) {
+		Runnable runnable = new Runnable() {
+			@Override
+			public void run() {				
+				ExecutorService service = Executors.newFixedThreadPool(30);
+				TableItem[] items = table.getSelection();	
+				final int size = items.length;
+				CountDownLatch countDownLatch = new CountDownLatch(size);
+				List<Future<String>> statusList =  new ArrayList<>();
+				for(TableItem item : items) {
+					UpgradeCallV2 mr = new UpgradeCallV2(item.getText(),countDownLatch);
+					statusList.add(service.submit(mr));
+				}
+				int index = 0;				
+				for(TableItem item : items) {
+					Future<String> fs = statusList.get(index);
+					index++;
+					try {
+						String result = fs.get();						
+						Display.getDefault().asyncExec(new Runnable() {
+							@Override
+							public void run() {
+								if(result != null) {
+									item.setText(1, "升级成功!");
 								}																
 								if(countDownLatch.getCount() == 0) {
 									//完成
@@ -164,6 +206,8 @@ public class MinerBatchService {
 		};
 		new Thread(runnable).start();
 	}
+	
+	
 	
 	//点亮红灯
 	/*public static void lightMiner(Table table) {

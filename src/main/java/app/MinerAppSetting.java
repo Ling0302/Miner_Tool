@@ -535,8 +535,7 @@ public class MinerAppSetting extends Dialog
                   break;
                 }
               }
-
-              
+     
               if (column > 12) {
                 return;
               }

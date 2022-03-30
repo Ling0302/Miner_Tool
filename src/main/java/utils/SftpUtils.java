@@ -6,18 +6,13 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 import java.util.Properties;
-
-import com.alibaba.fastjson.JSON;
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.ChannelExec;
 import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
-
 import cn.dreampie.log.Logger;
-import service.MinerVersionService;
-import vo.VersionOtaVO;
 
 public class SftpUtils {
 

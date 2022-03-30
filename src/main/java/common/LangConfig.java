@@ -36,7 +36,7 @@ public class LangConfig {
 		}
 		//System.out.println(props.get("app"));
 		logger.info("UI-lang is：[{}]",lang);
-		//logger.info("key:"+LangConfig.getKey("app.check.scanMiner"));
+		//logger.info("key:"+LangConfig.getKey("app.check.lighton"));
 	}
 	
 	public static String getKey(String key) {

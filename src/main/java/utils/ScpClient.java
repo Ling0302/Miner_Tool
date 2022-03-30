@@ -31,10 +31,10 @@ public class ScpClient {
     public static void main(String args[]) {
     	String ipStr = args[0];
     	String filename = args[1];
-    	String pass = args[2];
+    	//String pass = args[2];
 
     	List<String> ranges = new ArrayList<>();
-    	//ranges.add("192.168.10.50-59");
+    	//ranges.add("172.16.80.50-99");
     	
     	ranges.add(ipStr);
     	List<String> ips = new ArrayList<>();
@@ -43,7 +43,7 @@ public class ScpClient {
         }
         ips = IPRangeUtils.removeDuplicateWithOrder(ips);
         
-        for (String i : ips) {
+         for (String i : ips) {
         	String result = HttpRequestUtils.get(i, "/index.php/app/api?command=miner_info", null);
         	if("".equals(result) || result == null) {
         		System.out.println("ip:"+i+" 不是一台F9矿机 !");
@@ -51,9 +51,9 @@ public class ScpClient {
 			}
 	        try { 
 	        	System.out.println("ip:"+i+" 连接成功!");
-	        	ScpClient scpClient = new ScpClient(i,22,"root", pass);
+	        	ScpClient scpClient = new ScpClient(i,22,"root", "F9Miner1234");
 	        	scpClient.uploadFile(new File(filename), "/tmp", null);
-	        	SftpUtils sftpUtils = new SftpUtils(i, 22, "root", pass);
+	        	SftpUtils sftpUtils = new SftpUtils(i, 22, "root", "F9Miner1234");
 	        	System.out.println("命令执行成功！");
 	        	sftpUtils.execute("(sudo system_update online /tmp/" + filename +" > /tmp/upgrade.log &)");
 	        } catch(Exception e) {

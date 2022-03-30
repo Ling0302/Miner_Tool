@@ -6,7 +6,7 @@ import common.LangConfig;
 public class UiService {
 
 	public static void UiLang() {
-		MinerCheckApp.shell.setText("BYY矿机老化工具-V1.0");
+		MinerCheckApp.shell.setText(LangConfig.getKey("app"));
 		
 		MinerCheckApp.tabItem_1.setText(LangConfig.getKey("app.tab.scan"));
 		MinerCheckApp.tabItem_3.setText(LangConfig.getKey("app.tab.staticIp"));
@@ -24,12 +24,12 @@ public class UiService {
 			MinerCheckApp.lblNewLabel_10.setText(LangConfig.getKey("app.check.noMonitor"));
 		}*/
 		//MinerCheckApp.button_config_all.setText(LangConfig.getKey("app.check.configAll"));
-		//MinerCheckApp.button_config_select.setText(LangConfig.getKey("app.check.configSelect"));
-		//MinerCheckApp.button_reset.setText(LangConfig.getKey("app.check.restartMiner"));
+		MinerCheckApp.button_config_select.setText(LangConfig.getKey("app.check.configSelect"));
+		MinerCheckApp.button_reset.setText(LangConfig.getKey("app.check.restartMiner"));
 		MinerCheckApp.button_export.setText(LangConfig.getKey("app.check.export"));
-		MinerCheckApp.button_lighton.setText("点红灯");
-		//MinerCheckApp.button_setting.setText(LangConfig.getKey("app.check.setting"));
-		//MinerCheckApp.lblNewLabel_11.setText(LangConfig.getKey("app.check.ipNum"));
+		MinerCheckApp.button_lighton.setText(LangConfig.getKey("app.check.lighton"));
+		MinerCheckApp.button_setting.setText(LangConfig.getKey("app.check.setting"));
+		MinerCheckApp.lblNewLabel_11.setText(LangConfig.getKey("app.check.ipNum"));
 		MinerCheckApp.lblNewLabel_24.setText(LangConfig.getKey("app.check.lang"));
 		
 		MinerCheckApp.btnCheckButton_1.setText(LangConfig.getKey("app.check.pool1"));
@@ -57,7 +57,7 @@ public class UiService {
 		MinerCheckApp.button_2.setText(LangConfig.getKey("app.check.find"));
 		MinerCheckApp.button_3.setText(LangConfig.getKey("app.check.all"));
 		
-		MinerCheckApp.tblclmn_datetime.setText("日期");
+		MinerCheckApp.tblclmn_datetime.setText(LangConfig.getKey("app.check.table.datetime"));
 		//MinerCheckApp.tblclmn_index.setText("序号");
 		MinerCheckApp.tblclmn_ip.setText(LangConfig.getKey("app.check.table.ip"));
 		MinerCheckApp.tblclmn_status.setText(LangConfig.getKey("app.check.table.status"));
@@ -65,10 +65,13 @@ public class UiService {
 		MinerCheckApp.tblclmn_binType.setText("BIN");
 		MinerCheckApp.tblclmn_pool.setText(LangConfig.getKey("app.check.table.pool"));
 		MinerCheckApp.tblclmn_worker.setText(LangConfig.getKey("app.check.table.worker"));
+		MinerCheckApp.tblclmn_chipCount.setText(LangConfig.getKey("app.check.table.chipCount"));
 		MinerCheckApp.tblclmn_realHash.setText(LangConfig.getKey("app.check.table.realHash"));
 		MinerCheckApp.tblclmn_avgHash.setText(LangConfig.getKey("app.check.table.avgHash"));
 		MinerCheckApp.tblclmn_runningTime.setText(LangConfig.getKey("app.check.table.runningTime"));
 		MinerCheckApp.tblclmn_firmwareVersion.setText(LangConfig.getKey("app.check.table.firmwareVersion"));
+		MinerCheckApp.tblclmn_psuVersion.setText(LangConfig.getKey("app.check.table.psuVersion"));
+		MinerCheckApp.tblclmn_hardwareVersion.setText(LangConfig.getKey("app.check.table.hardwareVersion"));
 		//MinerCheckApp.tblclmn_softVersion.setText(LangConfig.getKey("app.check.table.softVersion"));
 		MinerCheckApp.tblclmn_temperature.setText(LangConfig.getKey("app.check.table.temperature"));
 		MinerCheckApp.tblclmn_fanSpeed.setText(LangConfig.getKey("app.check.table.fanSpeed"));

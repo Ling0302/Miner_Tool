@@ -26,7 +26,7 @@ public class UpgradeUiService {
 			@Override
 			public void run() {
 				ExecutorService service = Executors.newFixedThreadPool(30);
-				System.out.println(table_gj);
+				
 				TableItem[] t = table_gj.getSelection();
 				final int size = t.length;
 				CountDownLatch countDownLatch = new CountDownLatch(size);	
@@ -151,3 +151,4 @@ public class UpgradeUiService {
 		return true;
 	}
 }
+

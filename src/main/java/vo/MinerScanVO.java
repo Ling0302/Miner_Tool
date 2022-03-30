@@ -20,6 +20,8 @@ public class MinerScanVO {
 	private String avgCp;//平均算力(1h算力)
 	private String point;//位置
 	private String firmwareVersion;//固件版本
+	private String psuVersion;//电源版本
+	private String hardwareVersion; //硬件版本
 	private String softVersion;//软件版本(cgminer)
 	private String networkType;//网络类型（static、dhcp)
 	private String macAddress;//矿机mac地址
@@ -32,6 +34,7 @@ public class MinerScanVO {
 	private String fanDuty;//风扇占空比
 	private String devFreq;//频率
 	private String chipVolt;//芯片电压
+	private String chipCount;//芯片数量
 	private String volt;//电压
 	
 		
@@ -122,6 +125,12 @@ public class MinerScanVO {
 	public void setWorker(String worker) {
 		this.worker = worker;
 	}
+	public String getChipCount() {
+		return chipCount;
+	}
+	public void setChipCount(String chipCount) {
+		this.chipCount = chipCount;
+	}
 	public String getNowCp() {
 		return nowCp;
 	}
@@ -145,6 +154,18 @@ public class MinerScanVO {
 	}
 	public void setFirmwareVersion(String firmwareVersion) {
 		this.firmwareVersion = firmwareVersion;
+	}
+	public String getPsuVersion() {
+		return psuVersion;
+	}
+	public void setPsuVersion(String psuVersion) {
+		this.psuVersion = psuVersion;
+	}
+	public String getHardwareVersion() {
+		return hardwareVersion;
+	}
+	public void setHardwareVersion(String hardwareVersion) {
+		this.hardwareVersion = hardwareVersion;
 	}
 	public String getSoftVersion() {
 		return softVersion;

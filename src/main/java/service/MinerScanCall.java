@@ -13,6 +13,7 @@ import com.alibaba.fastjson.JSONObject;
 import common.LangConfig;
 import dao.PointDao;
 import utils.CgminerUtil;
+import utils.StringUtils;
 import utils.HttpRequestUtils;
 import vo.MinerScanVO;
 
@@ -65,8 +66,11 @@ public class MinerScanCall implements Callable<MinerScanVO>{
 			minerScanVO.setNetworkType(jol.getString("network_type"));
 			minerScanVO.setMacAddress(jol.getString("mac"));
 			minerScanVO.setFirmwareVersion(jol.getString("firmware_version"));
-			minerScanVO.setUptime(Integer.parseInt(jol.getString("uptime"))/60 + "");
+			minerScanVO.setPsuVersion(jol.getString("psu_version"));
+			minerScanVO.setHardwareVersion(jol.getString("hw_version"));
+			minerScanVO.setUptime(StringUtils.formatDateTime(Integer.parseInt(jol.getString("uptime"))));
 			minerScanVO.setStatus(jol.getString("status"));
+			minerScanVO.setChipCount(jol.getString("chip_count"));
 			minerScanVO.setPoint(PointDao.findPoint(jol.getString("mac")));			
 			//minerScanVO.setIsMiner(true);
 			minerScanVO.setCode(1);

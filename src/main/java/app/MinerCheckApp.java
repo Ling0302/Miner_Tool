@@ -50,6 +50,7 @@ import common.DbFile;
 import common.LangConfig;
 import common.Log4jConfig;
 import common.LogoConfig;
+import service.BatchUpgradeService;
 import service.ButtonStatusService;
 import service.ExcelExportService;
 import service.FileService;
@@ -108,6 +109,7 @@ public class MinerCheckApp
     public static boolean avgCpSort;
     public static boolean cpSort;
     public static boolean versionSort;
+    public static boolean uptimeSort;
     public static boolean statusSort;
     public static int ipLoadNum;
     public static IpsVO ips;
@@ -166,12 +168,14 @@ public class MinerCheckApp
     public static Button button_scan;
     //public static Button button_monitor;
     //public static Button button_config_all;
-    //public static Button button_config_select;
-    //public static Button button_reset;
+    public static Button button_config_select;
+    public static Button button_reset;
     public static Button button_export;
     public static Button button_lighton;
-    //public static Button button_setting;
-    //public static Label lblNewLabel_11;
+    public static Button button_upgrade;
+    public static Button button_setnologo;
+    public static Button button_setting;
+    public static Label lblNewLabel_11;
     public static Label lblNewLabel_24;
     //public static Label lblNewLabel_10;
     
@@ -214,9 +218,12 @@ public class MinerCheckApp
     public static TableColumn tblclmn_binType;
     public static TableColumn tblclmn_pool;
     public static TableColumn tblclmn_worker;
+    public static TableColumn tblclmn_chipCount;
     public static TableColumn tblclmn_realHash;
     public static TableColumn tblclmn_avgHash;
     public static TableColumn tblclmn_firmwareVersion;
+    public static TableColumn tblclmn_psuVersion;
+    public static TableColumn tblclmn_hardwareVersion;
     public static TableColumn tblclmn_softVersion;
     public static TableColumn tblclmn_temperature;
     public static TableColumn tblclmn_fanSpeed;
@@ -378,7 +385,7 @@ public class MinerCheckApp
         });
         //shell.setMaximized(true);
         shell.setSize(1380, 800);
-        shell.setText("永意科技 - 猎豹矿机工具  V2.0.0");
+        shell.setText(LangConfig.getKey("app"));
         shell.setLayout(new FillLayout(SWT.HORIZONTAL));
         //shell.setBackground(SWTResourceManager.getColor(SWT.COLOR_BLUE));
         //Image image = new Image(shell.getDisplay(), "F:\\silva-work\\temp\\4.png");
@@ -643,38 +650,40 @@ public class MinerCheckApp
         //button_config_all.setText("配置所有矿机");
         //button_config_all.setBounds(140, 0, 84, 27);
         
-        //button_config_select = new Button(composite_toolbar, SWT.NONE);
-        //button_config_select.addSelectionListener(new SelectionAdapter() {
-        	//@Override
-        	//public void widgetSelected(SelectionEvent e) {
-        		// MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));
-        		//Integer spinnerIp = spinner.getSelection();
-        		//List<PoolVO> poolList = getPoolList();
-        		//if(!MinerBatchService.isHaveRecord(resultTable)) {
-        			//MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
-        			//return;
-        		//}
-        		//MinerBatchService.configSelectPool(resultTable, poolList, spinnerIp);
-        		//MinerCmdService.configSelectMiner(shell, resultTable,getPoolList(),spinner);
-        	//}
-        //});
-        //button_config_select.setText("配置选中矿机");
-        //button_config_select.setBounds(230, 0, 84, 27);
+        button_config_select = new Button(composite_toolbar, SWT.NONE);
+        button_config_select.addSelectionListener(new SelectionAdapter() {
+        	@Override
+        	public void widgetSelected(SelectionEvent e) {
+        		  //MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));
+        		  Integer spinnerIp = spinner.getSelection();
+        		  List<PoolVO> poolList = getPoolList();
+        		if(!MinerBatchService.isHaveRecord(resultTable)) {
+        			MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
+        			return;
+        		}
+        		MinerBatchService.configSelectPool(resultTable, poolList, spinnerIp);
+        		
+        		//MinerCmdService.configSelectMiner(shell, resultTable, getPoolList(),spinner);
+        	}
+        });
+        button_config_select.setText("配置选中矿机");
+        button_config_select.setBounds(205, 0, 100, 27);
         
-        //button_reset = new Button(composite_toolbar, SWT.NONE);
-        //button_reset.addSelectionListener(new SelectionAdapter() {
-           // @Override
-            //public void widgetSelected(SelectionEvent e) {
-            	//MinerCmdService.infoDialog(shell, LangConfig.getKey("app.message.notOpen"));
-//            	if(!MinerBatchService.isHaveRecord(resultTable)) {
-//            		MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
-//        			return;
-//        		}
+        button_reset = new Button(composite_toolbar, SWT.NONE);
+        button_reset.addSelectionListener(new SelectionAdapter() {
+            @Override
+            public void widgetSelected(SelectionEvent e) {
+            	if(!MinerBatchService.isHaveRecord(resultTable)) {
+            		MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
+        			return;
+        		}
+            	
+            	MinerBatchService.rebootMiner(resultTable);
             	//MinerCmdService.rebootAction(shell,resultTable);
-            //}
-        //});
-        //button_reset.setText("重启矿机");
-        //button_reset.setBounds(319, 0, 84, 27);
+           }
+        });
+        button_reset.setText("重启矿机");
+        button_reset.setBounds(310, 0, 84, 27);
         
         button_export = new Button(composite_toolbar, SWT.NONE);
         button_export.addSelectionListener(new SelectionAdapter() {
@@ -720,6 +729,71 @@ public class MinerCheckApp
         button_lighton.setText("点红灯");
         button_lighton.setBounds(140, 0, 60, 27);
         
+        //button_upgrade = new Button(composite_toolbar, SWT.NONE);
+        //button_upgrade.addSelectionListener(new SelectionAdapter() {
+    	//@Override
+    	//public void widgetSelected(SelectionEvent e) {
+    		// Integer spinnerIp = spinner.getSelection();
+    		//if(!MinerBatchService.isHaveRecord(resultTable)) {
+    			//MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
+    			//return;
+    		//}
+    		
+    		//TableItem[] items = resultTable.getItems();         		
+    		//List<String> selectedIps = new ArrayList<>();
+    		//for(int i=0;i<items.length;i++) {
+    			//TableItem item = items[i];
+    			//if(item.getChecked()) {
+    				//selectedIps.add(items[i].getText(1).trim());
+    			//}
+    		//}
+
+    		//BatchUpgradeService.upgrade(shell, selectedIps);
+    	  //}
+    	//});
+        
+        //button_lighton.addSelectionListener(new SelectionAdapter() {
+        	//@Override
+        	//public void widgetSelected(SelectionEvent e) {
+        		//LedCtrlService.redon(shell,resulreable);
+        	//}
+        //});
+        //button_upgrade.setText("升级到最新固件");
+        //button_upgrade.setBounds(205, 0, 110, 27);
+        
+        // button_setnologo = new Button(composite_toolbar, SWT.NONE);
+        // button_setnologo.addSelectionListener(new SelectionAdapter() {
+    	//@Override
+    	//public void widgetSelected(SelectionEvent e) {
+    		// Integer spinnerIp = spinner.getSelection();
+    		//if(!MinerBatchService.isHaveRecord(resultTable)) {
+    			//MinerCmdService.infoDialog(shell, "没有选中任何矿机!");
+    			//return;
+    		//}
+    		
+    		//TableItem[] items = resultTable.getItems();         		
+    		//List<String> selectedIps = new ArrayList<>();
+    		//for(int i=0;i<items.length;i++) {
+    			//TableItem item = items[i];
+    			//if(item.getChecked()) {
+    				//selectedIps.add(items[i].getText(1).trim());
+    			//}
+    		//}
+
+    		//BatchUpgradeService.setnologo(shell, selectedIps);
+    	  //}
+    	//});
+        
+        //button_lighton.addSelectionListener(new SelectionAdapter() {
+        	//@Override
+        	//public void widgetSelected(SelectionEvent e) {
+        		//LedCtrlService.redon(shell,resultTable);
+        	//}
+        //});
+        //button_setnologo.setText("设置无LOGO");
+        //button_setnologo.setBounds(320, 0, 90, 27);
+        
+        
 //        Button button_close_hash = new Button(composite_toolbar, SWT.NONE);
 //        button_close_hash.addSelectionListener(new SelectionAdapter() {
 //        	@Override
@@ -730,7 +804,7 @@ public class MinerCheckApp
 //        button_close_hash.setBounds(409, 0, 80, 27);
 //        button_close_hash.setText("关闭矿机");
         
-        /*button_setting = new Button(composite_toolbar, SWT.NONE);
+        button_setting = new Button(composite_toolbar, SWT.NONE);
         button_setting.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent e) {
@@ -738,8 +812,8 @@ public class MinerCheckApp
                 dialog.open();
             }
         });
-        button_setting.setBounds(474, 0, 60, 27);
-        button_setting.setText("设置");*/
+        button_setting.setBounds(400, 0, 60, 27);
+        button_setting.setText("设置");
         
 //        Button button = new Button(composite_toolbar, SWT.NONE);
 //        button.addSelectionListener(new SelectionAdapter() {
@@ -766,18 +840,18 @@ public class MinerCheckApp
 //        button_1.setBounds(581, 0, 57, 27);
 //        button_1.setText("版本升级");
         
-        /*lblNewLabel_11 = new Label(composite_toolbar, SWT.NONE);
-        lblNewLabel_11.setBounds(705, 5, 70, 17);
+        lblNewLabel_11 = new Label(composite_toolbar, SWT.NONE);
+        lblNewLabel_11.setBounds(480, 5, 70, 17);
         lblNewLabel_11.setText("矿工(IP位数):");
         
         spinner = new Spinner(composite_toolbar, SWT.BORDER);
-        spinner.setBounds(781, 2, 36, 23);
+        spinner.setBounds(560, 2, 36, 23);
         spinner.setMaximum(4);
 		spinner.setMinimum(1);
-		spinner.setSelection(3);*/
+		spinner.setSelection(3);
 		
 		Combo combo_1 = new Combo(composite_toolbar, SWT.NONE | SWT.READ_ONLY);
-		combo_1.setBounds(629, 2, 70, 25);
+		combo_1.setBounds(685, 2, 70, 25);
 		String items[] = new String []{"中文","English"};
 		combo_1.setItems(items);
 		if("zh_CN".equals(LangConfig.lang)) {
@@ -800,7 +874,7 @@ public class MinerCheckApp
 		});
 		
 		lblNewLabel_24 = new Label(composite_toolbar, SWT.NONE);
-		lblNewLabel_24.setBounds(599, 5, 34, 17);
+		lblNewLabel_24.setBounds(620, 5, 60, 17);
 		lblNewLabel_24.setText("语言:");
         
         //带滚动条模块        
@@ -1177,7 +1251,7 @@ public class MinerCheckApp
         tblclmn_minerType.setText("矿机类型");
         
         tblclmn_binType = new TableColumn(resultTable, SWT.NONE);
-        tblclmn_binType.setWidth(60);
+        tblclmn_binType.setWidth(100);
         tblclmn_binType.setText("BIN");
         
         tblclmn_pool = new TableColumn(resultTable, SWT.NONE);
@@ -1187,6 +1261,10 @@ public class MinerCheckApp
         tblclmn_worker = new TableColumn(resultTable, SWT.NONE);
         tblclmn_worker.setWidth(130);
         tblclmn_worker.setText("矿工");
+        
+        tblclmn_chipCount = new TableColumn(resultTable, SWT.NONE);
+        tblclmn_chipCount.setWidth(80);
+        tblclmn_chipCount.setText("芯片数量");
         
         tblclmn_realHash = new TableColumn(resultTable, SWT.NONE);
         tblclmn_realHash.setWidth(100);
@@ -1203,6 +1281,15 @@ public class MinerCheckApp
         tblclmn_firmwareVersion = new TableColumn(resultTable, SWT.NONE);
         tblclmn_firmwareVersion.setWidth(120);
         tblclmn_firmwareVersion.setText("固件版本");
+        
+        tblclmn_psuVersion = new TableColumn(resultTable, SWT.NONE);
+        tblclmn_psuVersion.setWidth(120);
+        tblclmn_psuVersion.setText("电源版本");
+        
+        tblclmn_hardwareVersion = new TableColumn(resultTable, SWT.NONE);
+        tblclmn_hardwareVersion.setWidth(120);
+        tblclmn_hardwareVersion.setText("硬件版本");
+        
         
         /*tblclmn_softVersion = new TableColumn(resultTable, SWT.NONE);
         tblclmn_softVersion.setWidth(80);
@@ -1634,7 +1721,7 @@ public class MinerCheckApp
         Composite composite_20 = new Composite(composite_18, SWT.NONE);
         GridData gd_composite_4 = new GridData(SWT.LEFT, SWT.FILL, true, false, 11, 1);
         gd_composite_4.heightHint = 31;
-//        gd_composite_4.widthHint = 900;
+//      gd_composite_4.widthHint = 900;
         composite_20.setLayout(new GridLayout(12,false));
         composite_20.setLayoutData(gd_composite_4);
         
@@ -1724,15 +1811,15 @@ public class MinerCheckApp
 //        			MinerCmdService.infoDialog(shell, "密码不能为空！");
 //					return;
 //        		}       		
-        		TableItem[] t = table_gj.getSelection();
-        		//TableItem[]  t = table_gj.getItems();
+        	    //TableItem[] t = table_gj.getSelection();
+        		TableItem[]  t = table_gj.getItems();
         		System.out.println("正确数："+table_gj.getItemCount());
         		if(t.length == 0) {
         			MinerCmdService.infoDialog(shell, "请选中需要升级的矿机！");
 					return;
         		}
          		//ButtonStatusService.disableButton();
-        		table_gj.setEnabled(false);
+        		//table_gj.setEnabled(false);
         		UpgradeUiService.upgradeFile(table_gj);
         		
         	}
@@ -2145,7 +2232,8 @@ public class MinerCheckApp
     				|| i == Constants.avgcpIndex
     				|| i == Constants.cpIndex
     				|| i == Constants.versionIndex
-    				|| i == Constants.statusIndex) {
+    				|| i == Constants.statusIndex
+    				|| i == Constants.uptimeIndex) {
     			final int index = i;
         		table.getColumn(index).addSelectionListener(
             			new SelectionAdapter()
@@ -2154,30 +2242,25 @@ public class MinerCheckApp
         	    		     {
     	    	    		      //调用排序文件，处理排序
     	    	    		      //new TableColumnSorter().addStringSorter(table, table.getColumn(index));
-        	    		    	  if(index == 0) {
+        	    		    	  if(index == 1) {
         	    		    		  ipSort = !ipSort;
         	    		    		  TableColumnSorter.addStringSorter(table, table.getColumn(index),ipSort);
-        	    		    	  }else if(index == 2) {
-        	    		    		  minertypeSort = !minertypeSort;
-        	    		    		  TableColumnSorter.addStringSorter(table, table.getColumn(index),minertypeSort);
-        	    		    	  }/*else if(index == 4) {
-        	    		    		  workerSort = !workerSort;
-        	    		    		  TableColumnSorter.addStringSorter(table, table.getColumn(index),workerSort);
-        	    		    	  }*/else if(index == 6) {
-        	    		    		  avgCpSort = !avgCpSort;
-        	    		    		  TableColumnSorter.addNumberSorter(table, table.getColumn(index),avgCpSort);
-        	    		    	  }/*else if(index == 5) {
-        	    		    		  cpSort = !cpSort;
-        	    		    		  TableColumnSorter.addNumberSorter(table, table.getColumn(index),cpSort);
-        	    		    	  }*/else if(index == 8) {
-        	    		    		  versionSort = !versionSort;
-        	    		    		  TableColumnSorter.addStringSorter(table, table.getColumn(index),versionSort);
-        	    		    	  }else if(index == 1) {
+        	    		    	  }else if(index == 3) {
         	    		    		  statusSort = !statusSort;
         	    		    		  TableColumnSorter.addStringSorter(table, table.getColumn(index),statusSort);
+        	    		    	  }else if(index == 10) {
+        	    		    		  uptimeSort = !uptimeSort;
+        	    		    		  TableColumnSorter.addNumberSorter(table, table.getColumn(index),uptimeSort);
+        	    		    	  }else if(index == 9) {
+        	    		    		  avgCpSort = !avgCpSort;
+        	    		    		  TableColumnSorter.addNumberSorter(table, table.getColumn(index),avgCpSort);
+        	    		    	  }else if(index == 8) {
+        	    		    		  cpSort = !cpSort;
+        	    		    		  TableColumnSorter.addNumberSorter(table, table.getColumn(index),cpSort);
+        	    		    	  }else if(index == 11) {
+        	    		    		  versionSort = !versionSort;
+        	    		    		  TableColumnSorter.addStringSorter(table, table.getColumn(index),versionSort);
         	    		    	  }
-        	    		    	  
-        	    		    	  
         	    		     }
             		    }
             	);

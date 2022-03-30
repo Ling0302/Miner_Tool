@@ -132,6 +132,7 @@ public class MinerCmdService {
 							poolList.get(j).setPoolUser(user);
 						}
 					}
+					System.out.println("pool list:" + JSON.toJSONString(getPoolParam(poolList)));
 					workList.add(new Work(ip,minertype,JSON.toJSONString(getPoolParam(poolList))));
 					num++;
 				}
